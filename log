@@ -1,0 +1,415 @@
+[ERROR] - Missing Permissions
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Missing Permissions
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Invalid Form Body
+user_id: Value "<@!813554242823651328>" is not snowflake.
+[ERROR] - Missing Permissions
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot send messages to this user
+[ERROR] - Cannot read property 'has' of undefined
+[ERROR] - Invalid Form Body
+user_id: Value "<@!729901784528846999>" is not snowflake.
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Missing Permissions
+[ERROR] - Unexpected token '}'
+[ERROR] - Unexpected token '{'
+[ERROR] - (i + 1)r.namer.memberCount.toLowerCase(...) is not a function
+[ERROR] - Unexpected end of input
+[ERROR] - Unexpected end of input
+[ERROR] - Command info must be an Object.
+[ERROR] - Command info must be an Object.
+[ERROR] - Command group must be a string.
+[ERROR] - Command group must be a string.
+[ERROR] - Command group must be a string.
+[ERROR] - Command aliases must be an Array of strings.
+[ERROR] - Unexpected identifier
+[ERROR] - Unexpected identifier
+[ERROR] - Unexpected identifier
+[ERROR] - Unexpected token '{'
+[ERROR] - Unexpected identifier
+[ERROR] - Unexpected identifier
+[ERROR] - Unexpected token '}'
+[ERROR] - Unexpected token '{'
+[ERROR] - Unexpected token '{'
+[ERROR] - Unexpected token '{'
+[ERROR] - Unexpected token '{'
+[ERROR] - Unexpected end of input
+[ERROR] - Unexpected end of input
+[ERROR] - Unexpected end of input
+[ERROR] - Unexpected token '{'
+[ERROR] - Missing catch or finally after try
+[ERROR] - Missing catch or finally after try
+[ERROR] - Missing catch or finally after try
+[ERROR] - Missing catch or finally after try
+[ERROR] - Missing catch or finally after try
+[ERROR] - Cannot find module 'cheerio'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\getinvite.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module 'cheerio'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\getinvite.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module 'cheerio'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\getinvite.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module 'cheerio'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\getinvite.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Group "fetch" is not registered.
+[ERROR] - Cannot find module '../../../config.json'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../../config.json'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../../config.json'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../../config.json'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Group "mod" is not registered.
+[ERROR] - Group "mod" is not registered.
+[ERROR] - Group "mod" is not registered.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - Supplied overwrites is not an Array or Collection of Permission Overwrites.
+[ERROR] - fs is not defined
+[ERROR] - fs is not defined
+[ERROR] - fs is not defined
+[ERROR] - fs is not defined
+[ERROR] - guild.channels.find is not a function
+[ERROR] - guild.channels.find is not a function
+[ERROR] - guild.channels.find is not a function
+[ERROR] - guild.channels.find is not a function
+[ERROR] - guild.channels.find is not a function
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'id' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'channels' of null
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - Cannot read property 'send' of undefined
+[ERROR] - eventFunction.run is not a function
+[ERROR] - Command is not defined
+[ERROR] - Command is not defined
+[ERROR] - Command is not defined
+[ERROR] - Command is not defined
+[ERROR] - Command is not defined
+[ERROR] - 'super' keyword unexpected here
+[ERROR] - Cannot find module '../../structures/SkeppyCommand'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../utils/WelcomeUtils'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../utils/WelcomeUtils'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../utils/WelcomeUtils'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../utils/WelcomeUtils'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\lock.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot read property 'Command' of undefined
+[ERROR] - Cannot read property 'Command' of undefined
+[ERROR] - Group "admin" is not registered.
+[ERROR] - No settings provider is available.
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Cannot find module '../../structures/settings/Setting'
+Require stack:
+- C:\Users\Acer\Desktop\Shino2\cmds\dev\settings.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\require-all\index.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\registry.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\client.js
+- C:\Users\Acer\Desktop\Shino2\node_modules\discord.js-commando\src\index.js
+- C:\Users\Acer\Desktop\Shino2\index.js
+[ERROR] - Setting is not a constructor
+[ERROR] - No settings provider is available.
+[ERROR] - No settings provider is available.
+[ERROR] - fs is not defined

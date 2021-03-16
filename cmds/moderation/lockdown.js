@@ -1,0 +1,64 @@
+const {
+    stripIndents
+} = require('common-tags');
+const {
+    Command
+} = require('discord.js-commando')
+const chalk = require('chalk')
+
+module.exports = class LockdownCommand extends Command {
+    constructor(client) {
+        super(client, {
+            name: 'lockdown',
+            aliases: ['lock', 'ld'],
+            group: 'moderation',
+            memberName: 'lockdown',
+            description: 'Prevents users from posting in the current channel!',
+            details: 'Use `lockdown start` and `lockdown stop` to start and stop a lockdown respectively!',
+            guildOnly: true,
+            clientPermissions: ['ADMINISTRATOR'],
+            userPermissions: ['ADMINISTRATOR'],
+            examples: ['lockdown [start/stop]'],
+            args: [{
+                key: 'type',
+                prompt: 'Please enter either start or stop.',
+                type: 'string',
+                default: 'start',
+                validate: type => {
+                    if (['start', 'stop'].includes(type.toLowerCase())) return true;
+                    return 'Please enter either start or stop.';
+                },
+                parse: type => type.toLowerCase()
+            }]
+        });
+    }
+
+    async run(message, args) { // eslint-disable-line consistent-return
+        console.log(chalk.cyan.bold(`Lockdown was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+        const {
+            type
+        } = args;
+        if (type === 'start') {
+            await message.channel.overwritePermissions([
+                {
+                    id: message.guild.id,
+                    deny: ['SEND_MESSAGES', 'ADD_REACTIONS'],
+                },
+            ]);
+            
+            
+            `Lockdown initiated by ${message.author.tag}`
+            return message.channel.send(`Lockdown has initiated! Most users are now unable to send a message in this channel!\n\Please use \`lockdown stop\` to end the lockdown!`);
+
+        } else if (type === 'stop') {
+            await message.channel.overwritePermissions([
+                {
+                    id: message.guild.id,
+                    allow: ['SEND_MESSAGES', 'ADD_REACTIONS'],
+                },
+            ]); 
+            `Lockdown terminated by ${message.author.tag}`
+            return message.channel.send('Lockdown ended!');
+        }
+    }
+};
