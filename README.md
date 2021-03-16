@@ -1,2 +1,2 @@
 # Spartan
-Spartan Discord Bot.
+ Spartan Discord Bot
