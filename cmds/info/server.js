@@ -33,7 +33,6 @@ module.exports = class ServerInfoCommand extends Command {
   
 
     run(msg) {
-      console.log(chalk.cyan.bold(`Server-info was ran by:`, chalk.red.bold`${msg.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${msg.guild.name}`))
         return msg.embed({
             color: 3092790,
             description: `Info on **${msg.guild.name}**`,
@@ -56,7 +55,7 @@ module.exports = class ServerInfoCommand extends Command {
                     value: stripIndents `
       • **Roles** ${msg.guild.roles.cache.size}
       • **Region** ${msg.guild.region}
-      • **Created at** ${moment.utc(msg.guild.createdAt).format('dddd, MMMM Do YYYY, HH:mm:ss')}`
+      • **Created on** ${moment.utc(msg.guild.createdAt).format('dddd, MMMM Do YYYY, HH:mm:ss')}`
                 }
             ],
             thumbnail: {

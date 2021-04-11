@@ -15,7 +15,6 @@ module.exports = class FirstMessageCommand extends Commando.Command{
         });
     }
     async run (message) {
-		console.log(chalk.cyan.bold(`First-Message was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
 	try {
 		const messages = await message.channel.messages.fetch({ after: 1, limit: 1 });
 		const fMessage = messages.first();

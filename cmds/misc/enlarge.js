@@ -19,7 +19,6 @@ module.exports = class EnlargeCommand extends Commando.Command {
         });
 }
 async run (message, args) {
-    console.log(chalk.cyan.bold(`Enlarge was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
     const emoji = args[0];
     if (!emoji) return message.channel.send("No emoji provided!");
 

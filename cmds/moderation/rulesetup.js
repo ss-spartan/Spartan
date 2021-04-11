@@ -7,6 +7,7 @@ module.exports = class RuleCommand extends Command {
       name: 'rule',
       aliases: ['r', 'rulesetup'],
       group: 'moderation',
+      guildOnly: true,
       memberName: 'rule',
       description: 'Set up default rules for your server',
       userPermissions: ['ADMINISTRATOR'],
@@ -19,7 +20,6 @@ module.exports = class RuleCommand extends Command {
   }
 
   async run(message,{channel}) {
-    console.log(chalk.cyan.bold(`Rule-Setup was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
 
     const emote = '📍';
     var chnl = channel;

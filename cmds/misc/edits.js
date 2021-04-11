@@ -28,7 +28,6 @@ module.exports = class EditsCommand extends Command {
     };
 
     run (message, args) {
-        console.log(chalk.cyan.bold(`Edits was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         const m = args.message
 
         const nestedFields = []

@@ -23,10 +23,9 @@ module.exports = class StatsCommand extends Command {
 	}
 
 	run(msg) {
-		console.log(chalk.cyan.bold(`Bot-info was ran by:`, chalk.red.bold`${msg.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${msg.guild.name}`))
 		return msg.embed({
 			color: 3092790,
-			description: '**About Spartan <:Spartan:819684803561259018>**',
+			description: '**About Spartan <:Spartan:824723825597480978>**',
 			fields: [
 				{
 					name: '❯ Uptime',

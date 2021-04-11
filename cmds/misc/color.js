@@ -15,7 +15,6 @@ module.exports = class ColorCommand extends Command {
     }
 
     async run(message) {
-        console.log(chalk.cyan.bold(`Color was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         var color = message.content.split(/\s+/g).slice(1).join(" ");
 
         if (!color) {

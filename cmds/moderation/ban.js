@@ -14,6 +14,7 @@ module.exports = class BanCommand extends Command {
             group: 'moderation',
             description: 'Bans the given member\'s id or name.',
             userPermissions: ['BAN_MEMBERS'],
+            guildOnly: true,
             clientPermissions: ['MANAGE_MESSAGES','BAN_MEMBERS'],
             args: [{
                     key: 'userToBan',
@@ -33,7 +34,6 @@ module.exports = class BanCommand extends Command {
         userToBan,
         reason
     }) {
-        console.log(chalk.cyan.bold(`Ban was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         let user =
             message.mentions.members.first();
         message.guild.members.fetch(userToBan);

@@ -36,7 +36,6 @@ module.exports = class AvatarCommand extends Commando.Command {
                         }
                     }
                 });
-                console.log(chalk.cyan.bold(`Avatar was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
             } else {
                 message.channel.send({
                     embed: {
@@ -53,7 +52,6 @@ module.exports = class AvatarCommand extends Commando.Command {
                     }
                 });
             };
-            console.log(chalk.cyan.bold(`Avatar was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         } catch (error) {
             console.error(error);
             return message.channel.send(`An Error Occurred: \`${error.message}\`!`);

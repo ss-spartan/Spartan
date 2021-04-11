@@ -19,7 +19,6 @@ module.exports = class InviteCommand extends Command {
     }
 
     run(message) {
-        console.log(chalk.cyan.bold(`Invite was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         var phrases = [
             'Add me to your server with this link!',
             'Invite me and you shall prevail.'

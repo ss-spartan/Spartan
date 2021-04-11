@@ -23,7 +23,7 @@ module.exports = class LoopQueueCommand extends Command {
   }
 
   run(message) {
-    console.log(chalk.cyan.bold(`Loop-Queue was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     if (!message.guild.musicData.isPlaying) {
       message.say(':x: There is no song playing right now!');
       return;

@@ -21,7 +21,6 @@ module.exports = class RemoveSongCommand extends Command {
     });
   }
   run(message, { songNumber }) {
-    console.log(chalk.cyan.bold(`Remove was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
     if (songNumber < 1 || songNumber >= message.guild.musicData.queue.length) {
       return message.reply(':x: Please enter a valid song number!');
     }

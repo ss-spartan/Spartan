@@ -21,7 +21,7 @@ module.exports = class StopMusicTriviaCommand extends Command {
     });
   }
   run(message) {
-    console.log(chalk.cyan.bold(`Stop-Trivia was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     if (!message.guild.triviaData.isTriviaRunning)
       return message.say(':x: No trivia is currently running!');
 

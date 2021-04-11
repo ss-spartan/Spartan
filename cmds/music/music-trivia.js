@@ -33,7 +33,7 @@ module.exports = class MusicTriviaCommand extends Command {
     });
   }
   async run(message, { numberOfSongs }) {
-    console.log(chalk.cyan.bold(`Music-Trivia was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     // check if user is in a voice channel
     var voiceChannel = message.member.voice.channel;
     if (!voiceChannel)

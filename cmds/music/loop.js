@@ -15,7 +15,7 @@ module.exports = class LoopCommand extends Command {
   }
 
   run(message) {
-    console.log(chalk.cyan.bold(`Loop was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     if (!message.guild.musicData.isPlaying) {
       return message.say(':x: There is no song playing right now!');
     } else if (

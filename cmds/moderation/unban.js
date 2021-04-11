@@ -28,7 +28,7 @@ module.exports = class UnbanCommand extends Command {
   }
 
   run(msg, { user, reason }) {
-    console.log(chalk.cyan.bold(`Unban was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     msg.guild.members.unban(user, reason)
     .then(() => {
         const banEmbed = new MessageEmbed()

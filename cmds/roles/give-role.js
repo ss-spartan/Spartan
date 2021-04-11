@@ -1,5 +1,6 @@
 const { Command } = require('discord.js-commando')
 const chalk = require('chalk')
+const { Message } = require('discord.js')
 module.exports = class GiveRoleCommand extends Command {
     constructor(client) {
         super(client, {
@@ -26,11 +27,10 @@ module.exports = class GiveRoleCommand extends Command {
         })
     }
     run(msg, { user, role }) {
-        console.log(chalk.cyan.bold(`Give-Role was ran by:`, chalk.red.bold`${msg.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${msg.guild.name}`))
-
+        if(!msg.member.hasPermission("MANAGE_ROLES")) return msg.say("You don't have permission for this command.")
         msg.guild.member(user).roles.add(role)
         msg.say('**added** ' + role.name + ' **to** ' + user.tag)
- 
+        
     
     }
 }

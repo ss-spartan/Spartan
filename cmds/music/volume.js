@@ -32,7 +32,7 @@ module.exports = class VolumeCommand extends Command {
   }
 
   run(message, { wantedVolume }) {
-    console.log(chalk.cyan.bold(`Volume was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     const voiceChannel = message.member.voice.channel;
     if (!voiceChannel)
       return message.reply(

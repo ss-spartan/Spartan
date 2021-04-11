@@ -24,7 +24,7 @@ module.exports = class DevCommand extends Command {
             .setColor('#2f3136')
             .setThumbnail(this.client.user.avatarURL())
             .addFields(
-                {name: '❯ Spartan Developer <:spartan2:819686842362101760>',
+                {name: '❯ Spartan Developer <:spartan2:824723824502243409>',
                 value: stripIndents`
                     • This bot is developed by <@275240603447721984>, if you have suggestions DM him.`,
                 inline: true}
@@ -33,6 +33,5 @@ module.exports = class DevCommand extends Command {
             .setFooter("© Spartan")
 			
 		message.channel.send(devembed);
-		console.log(chalk.cyan.bold(`Dev was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
 	}
 };

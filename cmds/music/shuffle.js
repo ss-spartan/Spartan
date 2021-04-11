@@ -14,7 +14,7 @@ module.exports = class ShuffleQueueCommand extends Command {
     });
   }
   run(message) {
-    console.log(chalk.cyan.bold(`Shuffle was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     var voiceChannel = message.member.voice.channel;
     if (!voiceChannel)
       return message.reply(

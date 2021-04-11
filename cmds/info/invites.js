@@ -39,7 +39,7 @@ async run (message, args) {
             .addField("**No. Invited people**", index)
             .addField("Invitation Codes\n\n", content);
         message.channel.send(embed);
-        console.log(chalk.cyan.bold(`Invites was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     } catch (e) {
         return message.channel.send(e.message)
     };

@@ -1,33 +1,38 @@
-const Commando = require('discord.js-commando')
+
+
+const {
+  Command
+} = require('discord.js-commando')
 const chalk = require('chalk')
-module.exports = class BansCommand extends Commando.Command {
+
+module.exports = class ListBans extends Command {
   constructor(client) {
     super(client, {
-      name: "fetch-bans",
-      description: "Checks how many users are banned on the current server.",
+      name: "list-bans",
+      description: "DMs you a list of banned users.",
       group: "moderation",
-      usage: "fetch-bans",
-      memberName: 'fetch-bans',
-      aliases: ['bans'],
+      usage: "list-bans",
+      memberName: 'list-bans',
+      aliases: ["banlist"],
       guildOnly: true,
-      permLevel: "Moderator",
-      argsType: 'multiple',
+      clientPermissions: ['BAN_MEMBERS'],
+      userPermissions: ['BAN_MEMBERS'],
     });
   }
 
   async run(message) {
-    console.log(chalk.cyan.bold(`Fetch-Bans was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
-    if (!message.guild.available) return this.client.logger.info(`Guild "${message.guild.name}" (${message.guild.id}) is unavailable.`);
-    if (!message.guild.me.hasPermission("BAN_MEMBERS")) return message.channel.send(`I cannot run this command as I have insufficient permissions to do so. Please ensure I have the \"Ban Members\" permission.`);
+
     message.guild.fetchBans()
       .then(bans => {
-        message.channel.send(`This server has **${bans.size}** banned ${bans.size === 1 ? "user" : "users"}.`);
-      })
-      .catch(error => {
-        this.client.logger.error(error);
-        return message.channel.send(`An error occurred:\n\``
-          `${error.message}\``
-          ``);
+        const obj = bans.map(b => ({
+          user: `**${b.user.tag}**`
+        }));
+        const bList = Array.from(obj);
+        if (bList.length < 1) return message.author.send(`There are no banned users on **${message.guild.name}**.`);
+        let index = 0;
+
+        message.author.send(`__**Ban List for ${message.guild.name}**__\n${bList.map(bl => `**${++index} -** ${bl.user}`).join("\n")}`);
+        message.react("✅");
       });
   }
 }

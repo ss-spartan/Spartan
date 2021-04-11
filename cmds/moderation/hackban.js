@@ -12,6 +12,7 @@ module.exports = class BanCommand extends Command {
             userPermissions: ['BAN_MEMBERS'],
             description: 'Bans the given user ID, even if they\'re not in the server.',
             examples: ['hackban [userID] [reason]'],
+            ownerOnly: true,
             throttling: {
                 usages: 1,
                 duration: 15
@@ -39,7 +40,6 @@ module.exports = class BanCommand extends Command {
     }
 
     async run(message, args) {
-        console.log(chalk.cyan.bold(`Hack-Ban was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         const { member, reason } = args;
 
         if (member === this.client.user.id) return message.channel.send('You can\'t hackban me.');

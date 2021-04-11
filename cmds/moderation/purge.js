@@ -45,18 +45,17 @@ module.exports = class PurgeCommand extends Command {
     }
 
     async run(message, args) {
-        console.log(chalk.cyan.bold(`Purge was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         const { count, type } = args;
 
         if (type == 'all') {
             try {
                 const messages = await message.channel.messages.fetch({ limit: count });
                 await message.channel.bulkDelete(messages.size, true);
-                return message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, successfully pruned ${messages.size} ${messages.size == 1 ? 'message!' : 'messages!'}`).then(msg=> {msg.delete({timeout: 10000})})
+                return message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, successfully pruned ${messages.size} ${messages.size == 1 ? 'message!' : 'messages!'}`).then(msg=> {msg.delete({timeout: 10000})})
 
             } catch (err) {
                 console.log(err)
-                return message.channel.send('<:spartan2:819686842362101760> | These messages are too old to be deleted! I can only delete messages within two weeks!');
+                return message.channel.send('<:spartan2:824723824502243409> | These messages are too old to be deleted! I can only delete messages within two weeks!');
 
             }
         }
@@ -73,16 +72,16 @@ module.exports = class PurgeCommand extends Command {
 
                 const flushable = attachments.concat(urls)
 
-                if (flushable.size == 0) return message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, there were no images to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
+                if (flushable.size == 0) return message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, there were no images to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
 
                 await message.channel.bulkDelete(flushable)
 
-                const m = await message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'image!' : 'images!'}`).then(msg=> {msg.delete({timeout: 10000})})
+                const m = await message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'image!' : 'images!'}`).then(msg=> {msg.delete({timeout: 10000})})
 
                 return null;
             } catch (err) {
                 console.log(err)
-                return message.channel.send('<:spartan2:819686842362101760> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 10000})})
+                return message.channel.send('<:spartan2:824723824502243409> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 10000})})
 
             }
 
@@ -96,15 +95,15 @@ module.exports = class PurgeCommand extends Command {
                 })
                 const flushable = messages.filter(m => m.author.bot)
                 await message.channel.bulkDelete(flushable)
-                if (flushable.size == 0) return message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, there were no bot messages to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
+                if (flushable.size == 0) return message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, there were no bot messages to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
 
-                const m = await message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'bot message!' : 'bot messages!'}`).then(msg=> {msg.delete({timeout: 10000})})
+                const m = await message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'bot message!' : 'bot messages!'}`).then(msg=> {msg.delete({timeout: 10000})})
 
                 return null;
 
             } catch (err) {
                 console.log(err)
-                return message.channel.send('<:spartan2:819686842362101760> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
+                return message.channel.send('<:spartan2:824723824502243409> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
 
             }
         }
@@ -117,16 +116,16 @@ module.exports = class PurgeCommand extends Command {
                 })
                 const flushable = messages.filter(m => m.content.startsWith('```'));
 
-                if (flushable.size == 0) return message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, there were no codeblocks to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
+                if (flushable.size == 0) return message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, there were no codeblocks to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
 
                 await message.channel.bulkDelete(flushable)
-                const m = await message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'codeblock!' : 'codeblocks!'}`).then(msg=> {msg.delete({timeout: 10000})})
+                const m = await message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'codeblock!' : 'codeblocks!'}`).then(msg=> {msg.delete({timeout: 10000})})
 
                 return null;
 
             } catch (err) {
                 console.log(err)
-                return message.channel.send('<:spartan2:819686842362101760> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
+                return message.channel.send('<:spartan2:824723824502243409> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
 
             }
         }
@@ -138,16 +137,16 @@ module.exports = class PurgeCommand extends Command {
                     before: message.id
                 })
                 const flushable = messages.filter(m => m.attachments.length > 0)
-                if (flushable.size == 0) return message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, there were no attachments to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
+                if (flushable.size == 0) return message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, there were no attachments to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
 
                 await message.channel.bulkDelete(flushable)
-                const m = await message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'attachment!' : 'attachments!'}`).then(msg=> {msg.delete({timeout: 10000})})
+                const m = await message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'attachment!' : 'attachments!'}`).then(msg=> {msg.delete({timeout: 10000})})
 
                 return null;
 
             } catch (err) {
                 console.log(err)
-                return message.channel.send('<:spartan2:819686842362101760> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
+                return message.channel.send('<:spartan2:824723824502243409> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
 
             }
         }
@@ -159,16 +158,16 @@ module.exports = class PurgeCommand extends Command {
                     before: message.id
                 })
                 const flushable = messages.filter(m => m.embeds.length > 0)
-                if (flushable.size == 0) return message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, there were no embeds to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
+                if (flushable.size == 0) return message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, there were no embeds to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
 
                 await message.channel.bulkDelete(flushable)
-                const m = await message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'embed!' : 'embeds!'}`).then(msg=> {msg.delete({timeout: 10000})})
+                const m = await message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'embed!' : 'embeds!'}`).then(msg=> {msg.delete({timeout: 10000})})
 
                 return null;
 
             } catch (err) {
                 console.log(err)
-                return message.channel.send('<:spartan2:819686842362101760> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
+                return message.channel.send('<:spartan2:824723824502243409> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
 
             }
         }
@@ -180,16 +179,16 @@ module.exports = class PurgeCommand extends Command {
                     before: message.id
                 })
                 const flushable = messages.filter(m => m.id == message.author.id)
-                if (flushable.size == 0) return message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, there were no messages from you to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
+                if (flushable.size == 0) return message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, there were no messages from you to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
 
                 await message.channel.bulkDelete(flushable)
-                const m = await message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, successfully pruned **${flushable.size}** of your messages!`).then(msg=> {msg.delete({timeout: 10000})})
+                const m = await message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, successfully pruned **${flushable.size}** of your messages!`).then(msg=> {msg.delete({timeout: 10000})})
 
                 return null;
 
             } catch (err) {
                 console.log(err)
-                return message.channel.send('<:spartan2:819686842362101760> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
+                return message.channel.send('<:spartan2:824723824502243409> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
 
             }
         }
@@ -201,16 +200,16 @@ module.exports = class PurgeCommand extends Command {
                     before: message.id
                 })
                 const flushable = messages.filter(m => LinkRegex.test(m.content))
-                if (flushable.size == 0) return message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, there were no links to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
+                if (flushable.size == 0) return message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, there were no links to prune in the last ${count} messages!`).then(msg=> {msg.delete({timeout: 10000})})
 
                 await message.channel.bulkDelete(flushable)
-                const m = await message.channel.send(`<:spartan2:819686842362101760> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'link!' : 'links!'}`).then(msg=> {msg.delete({timeout: 10000})})
+                const m = await message.channel.send(`<:spartan2:824723824502243409> | **${message.author.username}**, successfully pruned **${flushable.size}** ${flushable.size == 1 ? 'link!' : 'links!'}`).then(msg=> {msg.delete({timeout: 10000})})
 
                 return null;
 
             } catch (err) {
                 console.log(err)
-                return message.channel.send('<:spartan2:819686842362101760> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
+                return message.channel.send('<:spartan2:824723824502243409> | These messages are too old to be deleted! I can only delete messages within two weeks!').then(msg=> {msg.delete({timeout: 500})})
 
             }
         }

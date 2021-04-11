@@ -16,7 +16,7 @@ module.exports = class JoinCommand extends Command {
   }
 
   async run(message) {
-    console.log(chalk.cyan.bold(`Join was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     const voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
       message.reply(':no_entry: Please join a voice channel and try again!');

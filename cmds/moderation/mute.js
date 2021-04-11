@@ -35,7 +35,6 @@ module.exports = class MuteCommand extends Command {
         userToMute,
         reason
     }) {
-        console.log(chalk.cyan.bold(`Mute was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         const mutedRole = message.guild.roles.cache.find(
             role => role.name === 'Muted'
         );

@@ -11,6 +11,7 @@ module.exports = class KickCommand extends Command {
       description: 'Kicks a tagged member',
       userPermissions: ['MANAGE_MESSAGES', 'KICK_MEMBERS'],
       clientPermissions: ['MANAGE_MESSAGES', 'KICK_MEMBERS'],
+      guildOnly: true,
       args: [
         {
           key: 'userToKick',
@@ -27,7 +28,6 @@ module.exports = class KickCommand extends Command {
   }
 
   run(message, { userToKick, reason }) {
-    console.log(chalk.cyan.bold(`Kick was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
     let user =
       message.mentions.members.first();
       message.guild.members.fetch(userToKick);

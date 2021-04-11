@@ -21,7 +21,6 @@ module.exports = class Servers extends Command {
 	}
 
 	async run (message, args, data) {
-		console.log(chalk.cyan.bold(`Servers was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         try{
 		await message.delete();
 

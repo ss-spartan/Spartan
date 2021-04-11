@@ -23,7 +23,6 @@ module.exports = class AnimeCommand extends Command {
     }
 
     run(message) {
-        console.log(chalk.cyan.bold(`Anime was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         var search = message.content.split(/\s+/g).slice(1).join(" ");
 
         if (!search) {

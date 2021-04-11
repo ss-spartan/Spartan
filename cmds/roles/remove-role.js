@@ -26,8 +26,8 @@ module.exports = class removeRoleCommand extends Command {
         })
     }
     run(msg, { user, role }) {
-        console.log(chalk.cyan.bold(`RemoveRole was ran by:`, chalk.red.bold`${msg.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${msg.guild.name}`))
 
+        if(!msg.member.hasPermission("MANAGE_ROLES")) return msg.say("You don't have permission for this command.")
         msg.guild.member(user).roles.remove(role)
         msg.say('**removed** ' + role.name + ' **from** ' + user.tag)
  

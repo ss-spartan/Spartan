@@ -21,14 +21,12 @@ module.exports = class AddBalanceCommand extends Commando.Command {
       message.reply('Please tag a user to add coins to.')
       return
     }
-    console.log(chalk.cyan.bold(`Balance was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
 
     const coins = args[1]
     if (isNaN(coins)) {
       message.reply('Please provide a valid numnber of coins.')
       return
     }
-    console.log(chalk.cyan.bold(`Balance was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
 
     const guildId = message.guild.id
     const userId = mention.id
@@ -37,7 +35,6 @@ module.exports = class AddBalanceCommand extends Commando.Command {
 
     message.reply(
       `You have given <@${userId}> ${coins} coin(s). They now have ${newCoins} coin(s)!`,
-      console.log(chalk.cyan.bold(`Add-Balance was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
     )
   }
 }

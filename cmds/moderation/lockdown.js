@@ -34,7 +34,6 @@ module.exports = class LockdownCommand extends Command {
     }
 
     async run(message, args) { // eslint-disable-line consistent-return
-        console.log(chalk.cyan.bold(`Lockdown was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         const {
             type
         } = args;

@@ -26,10 +26,9 @@ module.exports = class bugreportCommand extends Command {
     }
 
     async run(message, args, client) {
-        console.log(chalk.cyan.bold(`Support was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         var { support } = args;
         console.log(support)
-        var channel = message.client.channels.cache.get('820048787279314945');
+        var channel = message.client.channels.cache.get('824723827375734865');
         
 
         if (support == 'N////A') {

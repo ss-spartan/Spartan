@@ -25,6 +25,5 @@ module.exports = class BalanceCommand extends Commando.Command {
     const coins = await economy.getCoins(guildId, userId)
 
     message.reply(`That user has ${coins} coins!`)
-    console.log(chalk.cyan.bold(`Balance was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
   }
 }

@@ -1,10 +1,12 @@
 {
-    "token": "NzQ3MDc1NDkxMjk4ODAzNzYy.X0JmRQ.nSYOoWl1zGbgXddrSSerPgCa8l8",
+    "token": "NzQ3MDc1NDkxMjk4ODAzNzYy.X0JmRQ.czVmKPvmgLQDZOpMMHbv4MX6u6c",
     "prefix": ",",
     "mongoPath": "mongodb://localhost:27017",
     "ownerId": "275240603447721984",
     "youtubeAPI": "AIzaSyAgfePPJOTpa9AEJUe611LM96Cb2dH4JHE",
     "GOOGLE_CUSTOM_SEARCH": "AIzaSyAgfePPJOTpa9AEJUe611LM96Cb2dH4JHE",
     "GOOGLE_CUSTOM_SEARCH_CX": "64370aa0975ffcd55",
-    "reportchannel": "821000673876770876"
+    "reportchannel": "821000673876770876",
+    "twitchClientID": "fv1net1ialp8rzpxvaeji0ml8f2rsp",
+    "twitchClientSecret": ""
 }

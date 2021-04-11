@@ -16,7 +16,6 @@ module.exports = class QueueCommand extends Command {
   }
 
   run(message) {
-    console.log(chalk.cyan.bold(`Queue was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
     if (message.guild.triviaData.isTriviaRunning)
       return message.say(':x: Try again after the trivia has ended!');
     if (message.guild.musicData.queue.length == 0)

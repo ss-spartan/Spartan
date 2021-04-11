@@ -27,7 +27,6 @@ module.exports = class UnmuteCommand extends Command {
     async run(message, {
         userToUnmute
     }) {
-        console.log(chalk.cyan.bold(`Unmute was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         const mutedRole = message.guild.roles.cache.find(role => role.name === 'Muted');
         if (!mutedRole)
             return message.channel.send(

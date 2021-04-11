@@ -34,7 +34,7 @@ module.exports = class SLeaveCommand extends Command {
     }
 
     async run(message, args) {
-        console.log(chalk.cyan.bold(`Server-Leave was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
 
         let guild = this.client.guilds.cache.get(args.toLeave) || 'woopsies'
         if (guild == 'woopsies') return message.channel.send('That guild was not found! Please try again!')

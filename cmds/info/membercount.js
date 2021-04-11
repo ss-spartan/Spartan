@@ -17,7 +17,7 @@ module.exports= class MemberCountCommand extends Commando.Command{
         });
     };
 run ( msg, message) {
-    console.log(chalk.cyan.bold(`Membercount was ran by:`, chalk.red.bold`${msg.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${msg.guild.name}`))
+
     const { memberCount } = msg.guild;
     return msg.embed({
     color: 3092790,

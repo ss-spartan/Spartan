@@ -16,7 +16,6 @@ module.exports = class NowPlayingCommand extends Command {
   }
 
   run(message) {
-    console.log(chalk.cyan.bold(`Now-Playing was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
     if (
       (!message.guild.musicData.isPlaying &&
         !message.guild.musicData.nowPlaying) ||

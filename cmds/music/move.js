@@ -29,7 +29,6 @@ module.exports = class MoveSongCommand extends Command {
     });
   }
   async run(message, { oldPosition, newPosition }) {
-    console.log(chalk.cyan.bold(`Move was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
     if (
       oldPosition < 1 ||
       oldPosition > message.guild.musicData.queue.length ||

@@ -15,7 +15,7 @@ module.exports = class LeaveCommand extends Command {
   }
 
   run(message) {
-    console.log(chalk.cyan.bold(`Leave was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     var voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
       message.reply(':no_entry: Please join a voice channel and try again!');

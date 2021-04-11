@@ -35,7 +35,7 @@ module.exports = class PlayCommand extends Command {
   }
 
   async run(message, { query }) {
-    console.log(chalk.cyan.bold(`Play was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     const voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
       message.say(':no_entry: Please join a voice channel and try again!');

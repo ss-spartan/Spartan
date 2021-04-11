@@ -21,7 +21,6 @@ module.exports = class UrbanCommand extends Command {
     }
 
     async run(message) {
-        console.log(chalk.cyan.bold(`Urban was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         const query = message.content.split(/\s+/g).slice(1).join(" ");
 
         const defs = await (query.length ? urban(query) : urban.random());

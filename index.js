@@ -40,6 +40,7 @@ const {
 const intents = new Intents([
   Intents.NON_PRIVILEGED, // include all non-privileged intents, would be better to specify which ones you actually need
   "GUILD_MEMBERS", // lets you request guild members (i.e. fixes the issue)
+  "GUILD_PRESENCES"
 ]);
 
 Structures.extend('Guild', function (Guild) {
@@ -134,8 +135,41 @@ client.on('ready', async () => {
   });
 })
 
+const chalk = require("chalk")
+client.on('commandRun', (cmd, promise, msg) => {
+  if (msg.guild !== null) {
+    console.log(chalk.cyan.bold(`Running`, chalk.red.bold `${cmd.name}`, chalk.yellow.bold(`in`), `${msg.guild.name}`, chalk.red.bold(`by`), `${msg.author.tag}`))
+  }
+})
+client.on('disconnect', event => {
+  client.logger.error(`[DISCONNECT] Disconnected with code ${event.code}.`);
+  process.exit(0);
+});
+const db =require("quick.db")
+client.on('messageDelete', async message => {
+  db.set(`msg_${message.channel.id}`, message.content)
+  db.set(`author_${message.channel.id}`, message.author.id)
+})
+
+client.on('guildMemberAdd', async member => {
+  const channel = member.guild.channels.cache.get('830113325584613436');
+  const youroles = member.guild.channels.cache.get('830116181825945600')
+  const coloroles = member.guild.channels.cache.get('830116603155709983')
+  if (!channel) return;
+
+  channel.send(`welcome to ecstasy ${member.user} check out ${youroles} and ${coloroles} for roles.`)
+});
+
+
+
+
+
+
+
+
+
 client.on('guildCreate', function (guild, message) {
-  var channel = client.channels.cache.get('821087651473915985');
+  var channel = client.channels.cache.get('824723828713324584');
 
   var online = guild.members.cache.filter(m => m.user.presence.status === "online").size;
   var bots = guild.members.cache.filter(m => m.user.bot).size;
@@ -160,25 +194,27 @@ client.on('guildCreate', function (guild, message) {
 });
 
 client.on('guildDelete', function (guild, message) {
-  var channel = client.channels.cache.get('821087651473915985');
+  var channel = client.channels.cache.get('824723828713324584');
 
-	var online = guild.members.cache.filter(m => m.user.presence.status === "online").size
-	var bots = guild.members.cache.filter(m => m.user.bot).size
+  var online = guild.members.cache.filter(m => m.user.presence.status === "online").size
+  var bots = guild.members.cache.filter(m => m.user.bot).size
 
-	var textChannels = guild.channels.cache.filter(c => c.type === 'text');
-	var voiceChannels = guild.channels.cache.filter(c => c.type === 'voice');
+  var textChannels = guild.channels.cache.filter(c => c.type === 'text');
+  var voiceChannels = guild.channels.cache.filter(c => c.type === 'voice');
 
-	const embed = new Discord.MessageEmbed()
-		.setAuthor('Removed from a Server!', guild.iconURL())
-		.setColor('RED')
-		.setThumbnail(guild.iconURL())
-		.setDescription(`Server infomation for **${guild.name}** || **Owner:** <@${guild.ownerID}>`)
-		.addField('❯\u2000\Information', `•\u2000\**ID:** ${guild.id}**\n\•\u2000\**Created:** ${moment(guild.createdAt).format('MMMM Do YYYY')} \`(${fromNow(guild.createdAt)})\`\n\•\u2000\**Region:** ${guild.region}\n\u2000\**`)
-		.addField('❯\u2000\Quantitative Statistics', `•\u2000\**Channels** [${guild.channels.cache.size}]: ${textChannels.size} text - ${voiceChannels.size} voice\n\•\u2000\**Members** [${guild.memberCount}]: ${online} online - ${bots} bots\n\•\u2000\**Roles:** ${guild.roles.cache.size}`, true)
-		.addField('❯\u2000\Miscellaneous', `•\u2000\**Emojis:** ${guild.emojis.cache.size}`, true)
-		.setTimestamp()
-		.setFooter(`(${client.guilds.cache.size})`);
-	return channel.send({embed});
+  const embed = new Discord.MessageEmbed()
+    .setAuthor('Removed from a Server!', guild.iconURL())
+    .setColor('RED')
+    .setThumbnail(guild.iconURL())
+    .setDescription(`Server infomation for **${guild.name}** || **Owner:** <@${guild.ownerID}>`)
+    .addField('❯\u2000\Information', `•\u2000\**ID:** ${guild.id}**\n\•\u2000\**Created:** ${moment(guild.createdAt).format('MMMM Do YYYY')} \`(${fromNow(guild.createdAt)})\`\n\•\u2000\**Region:** ${guild.region}\n\u2000\**`)
+    .addField('❯\u2000\Quantitative Statistics', `•\u2000\**Channels** [${guild.channels.cache.size}]: ${textChannels.size} text - ${voiceChannels.size} voice\n\•\u2000\**Members** [${guild.memberCount}]: ${online} online - ${bots} bots\n\•\u2000\**Roles:** ${guild.roles.cache.size}`, true)
+    .addField('❯\u2000\Miscellaneous', `•\u2000\**Emojis:** ${guild.emojis.cache.size}`, true)
+    .setTimestamp()
+    .setFooter(`(${client.guilds.cache.size})`);
+  return channel.send({
+    embed
+  });
 });
 
 

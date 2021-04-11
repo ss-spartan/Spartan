@@ -20,7 +20,6 @@ module.exports = class MangaCommand extends Command {
     }
 
     run(message) {
-        console.log(chalk.cyan.bold(`Manga was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
         var search = message.content.split(/\s+/g).slice(1).join(" ");
         if (!search) {
             return message.channel.send('Please provide me a manga to search for!');

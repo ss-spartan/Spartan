@@ -15,7 +15,7 @@ module.exports = class SkipAllCommand extends Command {
   }
 
   run(message) {
-    console.log(chalk.cyan.bold(`Skip-All was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
     var voiceChannel = message.member.voice.channel;
     if (!voiceChannel)
       return message.reply(

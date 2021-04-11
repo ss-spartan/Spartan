@@ -33,7 +33,7 @@ module.exports = class IconCommand extends Commando.Command {
       .setFooter("© Spartan")
       .setImage(icon);
     message.channel.send({ embed });
-    console.log(chalk.cyan.bold(`Icon was ran by:`, chalk.red.bold`${message.author.tag}`, chalk.yellow.bold('in'), chalk.red.bold`${message.guild.name}`))
+
   }
 }
 
