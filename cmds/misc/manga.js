@@ -13,8 +13,8 @@ module.exports = class MangaCommand extends Command {
             description: 'Searches for a manga with Kitsu.io!',
             examples: [',manga [manga name]'],
             throttling: {
-                usages: 1,
-                duration: 5
+                usages: 3,
+                duration: 10
             }
         });
     }

@@ -16,8 +16,8 @@ module.exports = class AnimeCommand extends Command {
             description: 'Searches for an anime on Kitsu.io!',
             examples: [',anime <anime name>'],
             throttling: {
-                usages: 1,
-                duration: 5
+                usages: 3,
+                duration: 10
             }
         });
     }

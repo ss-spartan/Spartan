@@ -38,6 +38,10 @@ module.exports = class UserCommand extends Command {
                 type: 'user',
                 default: msg => msg.author,
             }, ],
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
         });
     }
 

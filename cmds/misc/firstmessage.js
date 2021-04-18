@@ -12,6 +12,10 @@ module.exports = class FirstMessageCommand extends Commando.Command{
             clientPermissions: ['MANAGE_WEBHOOKS'],
             userPermissions: ['MANAGE_MESSAGES'],
             argsType: 'multiple',
+			throttling: {
+                usages: 3,
+                duration: 10
+            },
         });
     }
     async run (message) {

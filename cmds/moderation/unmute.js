@@ -20,7 +20,11 @@ module.exports = class UnmuteCommand extends Command {
                 key: 'userToUnmute',
                 prompt: 'Please mention the user you want to Unmute with @ or provide their ID.',
                 type: 'member'
-            }]
+            }],
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
         });
     }
 

@@ -12,6 +12,10 @@ module.exports = class InvitesCommand extends Commando.Command {
                 argsType: 'multiple',
                 clientPermissions: ["EMBED_LINKS"],
             userPermissions: ['SEND_MESSAGES'],
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
             });
         };
     

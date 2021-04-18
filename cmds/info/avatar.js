@@ -13,6 +13,10 @@ module.exports = class AvatarCommand extends Commando.Command {
             clientPermissions: ["EMBED_LINKS"],
             userPermissions: ['SEND_MESSAGES'],
             argsType: 'multiple',
+            throttling: {
+                usages: 4,
+                duration: 10
+            },
         });
     };
 

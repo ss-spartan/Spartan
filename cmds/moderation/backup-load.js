@@ -17,6 +17,10 @@ const backup = require("discord-backup");
                 guildOnly: true,
                 clientPermissions: ["ADMINISTRATOR"],
             userPermissions: ['ADMINISTRATOR'],
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
             });
         };
         async run(message, args) {

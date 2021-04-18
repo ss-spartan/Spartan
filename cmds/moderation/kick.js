@@ -23,7 +23,11 @@ module.exports = class KickCommand extends Command {
           prompt: 'Why do you want to kick this user?',
           type: 'string'
         }
-      ]
+      ],
+      throttling: {
+        usages: 2,
+        duration: 10
+    },
     });
   }
 

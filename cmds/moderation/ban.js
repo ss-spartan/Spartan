@@ -26,7 +26,11 @@ module.exports = class BanCommand extends Command {
                     prompt: 'Why do you want to ban this user?',
                     type: 'string'
                 }
-            ]
+            ],
+            throttling: {
+                usages: 2,
+                duration: 10
+            },
         });
     }
 

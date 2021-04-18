@@ -24,6 +24,10 @@ module.exports = class UnbanCommand extends Command {
       ],
       clientPermissions: ['BAN_MEMBERS'],
       userPermissions: ['BAN_MEMBERS'],
+      throttling: {
+        usages: 3,
+        duration: 10
+    },
     });
   }
 

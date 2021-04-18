@@ -33,7 +33,7 @@ module.exports = class StatusCommand extends Command {
 			clientPermissions: ["EMBED_LINKS"],
 			throttling: {
 				usages: 2,
-				duration: 3
+				duration: 10
 			},
 
 			args: [
@@ -71,7 +71,7 @@ module.exports = class StatusCommand extends Command {
                  activities.push(`Streaming **${activity.name}**`);
                  break;
                case 'CUSTOM_STATUS':
-                 customStatus = `${activity.emoji || "No Emoji"}  ${activity.state} `
+                 customStatus = `${activity.emoji || "💬"}  ${activity.state} `
                  break;
              }
            }

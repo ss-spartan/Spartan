@@ -11,6 +11,10 @@ module.exports = class LeaveCommand extends Command {
       description: 'Leaves voice channel if in one!',
       clientPermissions: ['SPEAK', 'CONNECT'],
       userPermissions: ['SPEAK', 'CONNECT'],
+      throttling: {
+        usages: 3,
+        duration: 10
+    },
     });
   }
 

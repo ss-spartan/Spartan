@@ -9,8 +9,11 @@ module.exports = class WebsiteCommand extends Command {
             memberName:'website',
 			usage: '',
 			enabled: true,
-			cooldown: 5,
 			args: false,
+			throttling: {
+                usages: 3,
+                duration: 10
+            },
 		});
 	}
     run(msg) {

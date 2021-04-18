@@ -13,7 +13,7 @@ module.exports = class NukeCommand extends Command {
             description: 'Clones the current channel.',
             throttling: {
                 usages: 1,
-                duration: 15
+                duration: 10
             },
         });
     }

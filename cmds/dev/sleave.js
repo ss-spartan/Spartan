@@ -13,6 +13,7 @@ module.exports = class SLeaveCommand extends Command {
             details: 'Only the bot owner can use this command!',
             examples: [',fleave 1234567890'],
             ownerOnly: true,
+            hidden: true,
             args: [{
                     key: 'toLeave',
                     label: 'toLeave',

@@ -20,7 +20,11 @@ module.exports = class RoleInfoCommand extends Command {
           type: 'role',
           error: `Role was not found, please try again.`
         }
-      ]
+      ],
+      throttling: {
+        usages: 3,
+        duration: 10
+    },
     });
   }
 

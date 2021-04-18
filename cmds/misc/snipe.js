@@ -14,7 +14,11 @@ module.exports = class SnipeCommand extends commando.Command {
       memberName: 'snipe',
       description: 'Snipe the last deleted message.',
       guildOnly: true,
-      guarded: true
+      guarded: true,
+      throttling: {
+        usages: 3,
+        duration: 10
+    },
     });
   }
 

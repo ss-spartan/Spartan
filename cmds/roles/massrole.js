@@ -15,7 +15,7 @@ module.exports = class MassAddCommand extends Command {
             examples: [',massadd [role]'],
             throttling: {
                 usages: 1,
-                duration: 60
+                duration: 15
             },
             args: [{
                 key: 'role',

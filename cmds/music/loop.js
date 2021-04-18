@@ -11,6 +11,10 @@ module.exports = class LoopCommand extends Command {
       description: 'Loop the currently playing song!',
       clientPermissions: ['SPEAK', 'CONNECT'],
       userPermissions: ['SPEAK', 'CONNECT'],
+      throttling: {
+        usages: 2,
+        duration: 10
+    },
     });
   }
 

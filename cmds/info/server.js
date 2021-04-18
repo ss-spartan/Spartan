@@ -27,6 +27,10 @@ module.exports = class ServerInfoCommand extends Command {
         argsType: 'multiple',
         userPermissions: ['SEND_MESSAGES'],
         clientPermissions: ["EMBED_LINKS"],
+        throttling: {
+          usages: 3,
+          duration: 10
+      },
       });
   
     }

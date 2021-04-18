@@ -19,7 +19,7 @@ module.exports = class PlayCommand extends Command {
       userPermissions: ['SPEAK', 'CONNECT'],
       throttling: {
         usages: 2,
-        duration: 5
+        duration: 10
       },
       args: [
         {

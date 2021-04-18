@@ -15,7 +15,7 @@ module.exports = class MassRemCommand extends Command {
             examples: [',massrem [role]'],
             throttling: {
                 usages: 1,
-                duration: 60
+                duration: 15
             },
             args: [{
                 key: 'role',

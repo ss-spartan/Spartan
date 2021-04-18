@@ -10,7 +10,11 @@ module.exports = class ColorCommand extends Command {
             memberName: 'color',
             guildOnly: true,
             description: 'Shows a random color or a preview of the given color!',
-            examples: ['color <color>']
+            examples: ['color <color>'],
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
         });
     }
 

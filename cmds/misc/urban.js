@@ -14,8 +14,8 @@ module.exports = class UrbanCommand extends Command {
             examples: [',urban [term]'],
             details: 'Say `,urban` for a random definition!',
             throttling: {
-                usages: 1,
-                duration: 3
+                usages: 3,
+                duration: 10
             }
         });
     }

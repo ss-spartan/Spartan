@@ -12,6 +12,10 @@ module.exports = class BalanceCommand extends Commando.Command {
       aliases: ['bal'],
       clientPermissions: ['SEND_MESSAGES'],
       userPermissionss: ['SEND_MESSAGES'],
+      throttling: {
+        usages: 4,
+        duration: 10
+    },
     })
   }
 

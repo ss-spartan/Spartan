@@ -17,6 +17,10 @@ module.exports = class ListBans extends Command {
       guildOnly: true,
       clientPermissions: ['BAN_MEMBERS'],
       userPermissions: ['BAN_MEMBERS'],
+      throttling: {
+        usages: 2,
+        duration: 10
+    },
     });
   }
 

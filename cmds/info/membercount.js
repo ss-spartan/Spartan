@@ -14,6 +14,10 @@ module.exports= class MemberCountCommand extends Commando.Command{
             argsType: 'multiple',
             userPermissions: ['SEND_MESSAGES'],
             clientPermissions: ["EMBED_LINKS"],
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
         });
     };
 run ( msg, message) {

@@ -10,15 +10,14 @@ module.exports = class bugreportCommand extends Command {
             memberName: 'support',
             guildOnly: true,
             description: 'Sends a support message to Spartan\'s main server!',
-            examples: [',support [bugs, issues, etc]'],
-            details: 'Spartan might reply back in the channel you asked for support in!',
+            examples: ['bugreport [bugs, issues, etc]'],
             throttling: {
                 usages: 1,
                 duration: 30
             },
             args: [{
                 key: 'support',
-                prompt: 'Please provide me a message to send to the backend!',
+                prompt: 'Please provide me a message to send to the support server!',
                 type: 'string',
                 default: 'N////A'
             }]

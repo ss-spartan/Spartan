@@ -22,7 +22,11 @@ module.exports = class removeRoleCommand extends Command {
                     prompt:"Which role would you like to remove?",
                     key:"role"
                 }
-            ]
+            ],
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
         })
     }
     run(msg, { user, role }) {

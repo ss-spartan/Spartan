@@ -16,6 +16,10 @@ module.exports = class PermissionsCommand extends Command {
         clientPermissions: ["EMBED_LINKS"],
         userPermissions: ['SEND_MESSAGES'],
         argsType: 'multiple',
+        throttling: {
+          usages: 3,
+          duration: 10
+      },
     });
 };
   run(message, args) {

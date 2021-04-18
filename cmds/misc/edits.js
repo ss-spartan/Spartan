@@ -14,8 +14,8 @@ module.exports = class EditsCommand extends Command {
             description: 'Fetches the recent edits of a message.',
             examples: [',edits [message ID]'],
             throttling: {
-                usages: 1,
-                duration: 5
+                usages: 2,
+                duration: 10
             },
             args: [
                 {

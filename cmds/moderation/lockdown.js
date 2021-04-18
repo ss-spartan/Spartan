@@ -29,7 +29,11 @@ module.exports = class LockdownCommand extends Command {
                     return 'Please enter either start or stop.';
                 },
                 parse: type => type.toLowerCase()
-            }]
+            }],
+            throttling: {
+                usages: 2,
+                duration: 10
+            },
         });
     }
 

@@ -17,7 +17,7 @@ module.exports = class StatsCommand extends Command {
 			clientPermissions: ["EMBED_LINKS"],
 			throttling: {
 				usages: 2,
-				duration: 3
+				duration: 10
 			}
 		});
 	}
@@ -50,7 +50,7 @@ module.exports = class StatsCommand extends Command {
 				{
 					name: '❯ Bot Invite',
 					value: stripIndents`
-					• [Invite Spartan](https://discord.com/oauth2/authorize?client_id=747075491298803762&scope=bot&permissions=269872255)
+					• [Invite Spartan](https://discord.com/oauth2/authorize?client_id=747075491298803762&permissions=2096492023&redirect_uri=https%3A%2F%2Fdiscordapp.com%2Fapi%2Fguilds%2F477733570736029699%2Fwidget.json&scope=bot)
 					• [Visit Spartan Website](http://ss-spartan.github.io/)
 					`
 				},

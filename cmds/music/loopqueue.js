@@ -18,7 +18,11 @@ module.exports = class LoopQueueCommand extends Command {
           type: 'integer',
           prompt: 'How many times do you want to loop the queue?'
         }
-      ]
+      ],
+      throttling: {
+        usages: 3,
+        duration: 10
+    },
     });
   }
 

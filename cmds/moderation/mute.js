@@ -27,7 +27,11 @@ module.exports = class MuteCommand extends Command {
                     type: 'string',
                     default: message => `None`
                 }
-            ]
+            ],
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
         });
     }
 

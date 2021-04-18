@@ -23,7 +23,11 @@ module.exports = class GiveRoleCommand extends Command {
                     prompt:"Which role would you like to add?",
                     key:"role"
                 }
-            ]
+            ],
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
         })
     }
     run(msg, { user, role }) {

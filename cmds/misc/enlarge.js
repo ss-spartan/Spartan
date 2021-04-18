@@ -16,6 +16,10 @@ module.exports = class EnlargeCommand extends Commando.Command {
             clientPermissions: ['EMBED_LINKS'],
             userPermissions: ['SEND_MESSAGES'],
             argsType: 'multiple',
+            throttling: {
+                usages: 3,
+                duration: 10
+            },
         });
 }
 async run (message, args) {
