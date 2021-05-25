@@ -5,7 +5,7 @@ const {
     Command
 } = require('discord.js-commando')
 const chalk = require('chalk')
-
+const {MessageEmbed} = require("discord.js")
 module.exports = class LockdownCommand extends Command {
     constructor(client) {
         super(client, {
@@ -16,7 +16,7 @@ module.exports = class LockdownCommand extends Command {
             description: 'Prevents users from posting in the current channel!',
             details: 'Use `lockdown start` and `lockdown stop` to start and stop a lockdown respectively!',
             guildOnly: true,
-            clientPermissions: ['ADMINISTRATOR'],
+            clientPermissions: ['MANAGE_GUILD'],
             userPermissions: ['ADMINISTRATOR'],
             examples: ['lockdown [start/stop]'],
             args: [{
@@ -51,7 +51,7 @@ module.exports = class LockdownCommand extends Command {
             
             
             `Lockdown initiated by ${message.author.tag}`
-            return message.channel.send(`Lockdown has initiated! Most users are now unable to send a message in this channel!\n\Please use \`lockdown stop\` to end the lockdown!`);
+            return message.channel.send(new MessageEmbed().setDescription(`>>> <:spartanWarning:839194405049991168> ${message.author}, **Lockdown has been initiated! Most users are now unable to send a message in this channel!**\n\Please use \`lockdown stop\` to end the lockdown!`).setColor("YELLOW"))
 
         } else if (type === 'stop') {
             await message.channel.overwritePermissions([
@@ -61,7 +61,7 @@ module.exports = class LockdownCommand extends Command {
                 },
             ]); 
             `Lockdown terminated by ${message.author.tag}`
-            return message.channel.send('Lockdown ended!');
+            return message.channel.send(new MessageEmbed().setDescription('>>> ✅ **Lockdown has ended, everyone is able to talk again!**').setColor("GREEN"))
         }
     }
 };

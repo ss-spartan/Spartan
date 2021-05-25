@@ -1,0 +1,3170 @@
+{
+    "name": "/17teen",
+    "region": "europe",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "/17teen",
+                "permissions": [
+                    {
+                        "roleName": "Contributors",
+                        "allow": 0,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "Skids",
+                        "allow": 0,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "Cool Devs",
+                        "allow": 0,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "OG",
+                        "allow": 0,
+                        "deny": 2048
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "announcements",
+                        "nsfw": false,
+                        "parent": "/17teen",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "LAVISH?!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "LMFAOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO AYOOOOOOOOOOOOOO",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": "its good",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "wyd g",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "pattern",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "NAH",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": "ahhhhhhhhhhh allow it man",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "@everyone lavish is out bad LMAO",
+                                "embeds": [],
+                                "files": [
+                                    {
+                                        "name": "unknown.png",
+                                        "attachment": "https://cdn.discordapp.com/attachments/840138316342493184/843526330195771403/unknown.png"
+                                    }
+                                ],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": true
+                    },
+                    {
+                        "type": "text",
+                        "name": "boosts",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "/17teen",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "readme",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "/17teen",
+                        "topic": "About me.",
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "17",
+                                "avatar": "https://cdn.discordapp.com/avatars/840546612756873266/3534d520fa54fd86a71be6bd762e464f.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "**▄︻デ7teen══━一**\n\n7teen but call me ace.\n\n**socials**\n\n+ Youtube: [Click Here](https://www.youtube.com/channel/UC4PEPbLPaLkiJf4Y-uZ9p9Q)\n/ Steam: [Click Here](https://steamcommunity.com/id/seven777teen/) \n+ Instagram: [Click Here](https://www.instagram.com/iluvlovell/)\n\n**contact**\n\n+ Discord: [Click Here](https://discord.com/users/709827684888215582)\n/ Telegram: [Click Here](https://t.me/clairvoyant7teen)\n\n**support me**\n\n+ Discord Bot (verified): [Invite Lovell](https://discord.com/api/oauth2/authorize?client_id=756843873795571863&permissions=134604871&scope=bot)\n/ Editing Channel: [Click Here](https://www.youtube.com/channel/UCCI1R8tieH6uL9nF0GgiqjQ)\n+ Discord Community Server: [Join](https://discord.gg/CCe5cFtsq7)",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 3553599,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://media.discordapp.net/attachments/790498161533517835/840522986129719356/burnkas.jpg",
+                                            "proxyURL": "https://images-ext-2.discordapp.net/external/4izeamiGX7OV6RwcZ10X2VmKvcVImmDPsdL9Isa9OQ4/https/media.discordapp.net/attachments/790498161533517835/840522986129719356/burnkas.jpg",
+                                            "height": 500,
+                                            "width": 500
+                                        },
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "updates",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "/17teen",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "@everyone \n**Mass DM** has been updated.\n\n**Features:**\n\n> 2 New DM Modes (Normal & Timeout).\n> Bypassing/Avoiding spam flags from Discord.\n\n**Normal Mode:**\n\n> DM Speed: Attempts to dm in under 1 second between each user.\n\n**Timeout Mode: (NEW)**\n\n> DM Speed: 3 - 9 second timeouts between each DM.\n> Chance of bot flagging: Very Low.\n\nCheck: #mass-dm \n\nShowcase:",
+                                "embeds": [],
+                                "files": [
+                                    {
+                                        "name": "V3_Revamp.mp4",
+                                        "attachment": "https://cdn.discordapp.com/attachments/840553808064938024/845745432943788042/V3_Revamp.mp4"
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "@everyone a **repl.it** version for every tool has been made with the exception of #rich-presence . You can stop asking me now if it works on repl.\n\nFor future references: \n\n**Repl Configuration**\n**Language:** `Node.JS`\n**Run:** `node .`\n\n*If you cannot run the file you want because it's in a different folder do the following:*\n\n> 1. Go to `package.json`\n> 2. Look for the `main` property __**(should be highlighted in a blue color)**__\n> 3. Change the value inside the quotation marks to: `\"./YOUR_FOLDER_HERE/FILE_NAME.JS\"`\n\nThis currently only applies to #bladee-anti-nuke",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "#rainbow-role",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**Features:**\n\n> 2 New Rainbow Modes (`Fast` & `Gradient`).\n> More colors added.\n> Increased rotation speeds.\n\n**Gradient Mode:**\n\nColor Amount: 24 colors.\nColor Rotation Speed: 5s.\n\n**Fast Mode:**\n\nColor Amount: 8 colors.\nColor Rotation Speed: 700ms | 0.7s.",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "@everyone Rainbow Role V2 is out now.",
+                                "embeds": [],
+                                "files": [
+                                    {
+                                        "name": "117990890-7dca9880-b335-11eb-9887-d4ace3bd4643.png",
+                                        "attachment": "https://cdn.discordapp.com/attachments/840553808064938024/842048797948510228/117990890-7dca9880-b335-11eb-9887-d4ace3bd4643.png"
+                                    }
+                                ],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "todos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "/17teen",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**Mass DM bot**\n\n**bug:** `Discord blocks bot from API due to spam`\n**bug status:** `50% Complete`\n**estimated time of fix: (Timeout Mode)** `1-3 days`\n**estimated time of fix: (requests & proxies)** `1 week+`\n\n**Anti Nuke**\n\n**bug:** `Bot seems to ban whitelisted users / bots and normal users when upon joining`\n**bug status:** `Incomplete`\n**estimated time of fix:** `2-5 days (extended)`\n\n**Anti Nuke #2**\n\n**bug:** `Repl doesn't seem to create .json files`\n**bug status:** `Incomplete`\n**estimated time of fix:** `1 week+ `\n\n**Presser Nuker**\n\n**bug:** `Bot seems to not ban those who are offline`\n**bug status:** `Incomplete`\n**estimated time of fix:** `3-5 days`\n\n**Presser Nuker#2**\n\n**bug:** `Bot seems to cap ban around 40-50 members`\n**bug status:** `Incomplete`\n**estimated time of fix:** `4-8 days`\n\n**Repl.it**\n\n**bug:** `Users are subject to their bots being token logged`\n**bug status:** `Incomplete`\n**estimated time of fix:** `Whenever all of the updates above are completed`\n\n@everyone if you've **DM'd** me about an issue. Here details found issues and estimated time I will solve these issues. Keep in mind I am currently **busy** so don't be surprised if I don't fulfil the estimated time of fixing an issue.",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Talk",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "general",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Talk",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Mannnny",
+                                "avatar": "https://cdn.discordapp.com/avatars/470121898517331989/ce39b369da4fc81de4eea223beec3532.webp",
+                                "content": "true",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "all g",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Mannnny",
+                                "avatar": "https://cdn.discordapp.com/avatars/470121898517331989/ce39b369da4fc81de4eea223beec3532.webp",
+                                "content": "sry in overwatch rn",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "$atrof",
+                                "avatar": "https://cdn.discordapp.com/avatars/645264032231718913/a_537ecfd0d867af899094c5b5150ed76c.webp",
+                                "content": "good",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "relatable",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "$atrof",
+                                "avatar": "https://cdn.discordapp.com/avatars/645264032231718913/a_537ecfd0d867af899094c5b5150ed76c.webp",
+                                "content": "good",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "🗣️",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Mannnny",
+                                "avatar": "https://cdn.discordapp.com/avatars/470121898517331989/ce39b369da4fc81de4eea223beec3532.webp",
+                                "content": "its hard being this cool",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Mannnny",
+                                "avatar": "https://cdn.discordapp.com/avatars/470121898517331989/ce39b369da4fc81de4eea223beec3532.webp",
+                                "content": "i know",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "ima fr u",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "issues",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Talk",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "If you read the README you would prevent this from happening",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Anxious",
+                                "avatar": "https://cdn.discordapp.com/avatars/534985360468606976/a_170c7bd033723792d27a44b03be7482e.webp",
+                                "content": "i got hacked or something",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Anxious",
+                                "avatar": "https://cdn.discordapp.com/avatars/534985360468606976/a_170c7bd033723792d27a44b03be7482e.webp",
+                                "content": "i thought",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Anxious",
+                                "avatar": "https://cdn.discordapp.com/avatars/534985360468606976/a_170c7bd033723792d27a44b03be7482e.webp",
+                                "content": "oh",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "sorrow",
+                                "avatar": "https://cdn.discordapp.com/avatars/493545772718096386/2b3141180968138f3c13c8f093856ab3.webp",
+                                "content": "temporarily",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "sorrow",
+                                "avatar": "https://cdn.discordapp.com/avatars/493545772718096386/2b3141180968138f3c13c8f093856ab3.webp",
+                                "content": "and ratelimits u",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "sorrow",
+                                "avatar": "https://cdn.discordapp.com/avatars/493545772718096386/2b3141180968138f3c13c8f093856ab3.webp",
+                                "content": "discord then notices",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "sorrow",
+                                "avatar": "https://cdn.discordapp.com/avatars/493545772718096386/2b3141180968138f3c13c8f093856ab3.webp",
+                                "content": "you basically send to many requests in a short amount of time",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "MEE6",
+                                "avatar": "https://cdn.discordapp.com/avatars/159985870458322944/b50adff099924dd5e6b72d13f77eb9d7.webp",
+                                "content": "GG @​sorrow, you just advanced to level 2!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "sorrow",
+                                "avatar": "https://cdn.discordapp.com/avatars/493545772718096386/2b3141180968138f3c13c8f093856ab3.webp",
+                                "content": "spamming the API",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "requests",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Talk",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "Regardless if it’s verified",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "You’re account will get locked",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "メCented",
+                                "avatar": "https://cdn.discordapp.com/avatars/734355743355961394/3966e02d9f30e3f02bd60ffbf0aa8bbe.webp",
+                                "content": "if there is one can i have it?",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "メCented",
+                                "avatar": "https://cdn.discordapp.com/avatars/734355743355961394/3966e02d9f30e3f02bd60ffbf0aa8bbe.webp",
+                                "content": "couldnt u put phone veri + email  veri off?",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "sql",
+                                "avatar": "https://cdn.discordapp.com/avatars/842808434239340564/3e285a94aae4f0d4770bc4e907bf6172.webp",
+                                "content": "fucking lua",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "erik",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "it's lua",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "+beya",
+                                "avatar": "https://cdn.discordapp.com/avatars/758749948627517454/a_c4f9916264499cbacf819eba4635adfd.webp",
+                                "content": "this aint python?",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "php",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "nah",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "+beya",
+                                "avatar": "https://cdn.discordapp.com/avatars/758749948627517454/a_c4f9916264499cbacf819eba4635adfd.webp",
+                                "content": "wait thats a pythom script right @​7teen",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "dumb-shit",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Talk",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "sql",
+                                "avatar": "https://cdn.discordapp.com/avatars/842808434239340564/3e285a94aae4f0d4770bc4e907bf6172.webp",
+                                "content": "zimg",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "- SΛКSHЏΛM ⸸",
+                                "avatar": "https://cdn.discordapp.com/avatars/745581095747059722/a_ac1d2a282206057b3ada8decb679ede7.webp",
+                                "content": "............",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "lovell",
+                                "avatar": "https://cdn.discordapp.com/avatars/756843873795571863/2239bb4e9e6188d14d29584cba9ef22d.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Lovell | Moderation Settings",
+                                        "type": "rich",
+                                        "description": "*Lovell.*\n            \n **Banning:**\n            \n **Ban** | z`ban [user]` \n **Unban** | z`unban [user] (reason)` \n **Unban All** | z`unbanall`\n            \n **Kicking:**\n            \n **Kick** | z`kick [user]`\n            \n **Messages:**\n            \n **Purge** | z`purge [Numb]` *Max: 100 | 2 Weeks Old*",
+                                        "url": null,
+                                        "timestamp": "2021-05-22T07:23:33.012Z",
+                                        "color": 3553598,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "lovell#6685",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/756843873795571863/2239bb4e9e6188d14d29584cba9ef22d.webp"
+                                        },
+                                        "footer": {
+                                            "text": "© Lovell | Prefix: z"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "KARTIK_™",
+                                "avatar": "https://cdn.discordapp.com/avatars/767820210139824159/a9fc9420600c06f370e2fbee6ed3369b.webp",
+                                "content": "zmod",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "lovell",
+                                "avatar": "https://cdn.discordapp.com/avatars/756843873795571863/2239bb4e9e6188d14d29584cba9ef22d.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Lovell | General Settings",
+                                        "type": "rich",
+                                        "description": "*Lovell.*\n    \n **Bot:**\n    \n **Bot Stats**   | z`botstats` \n **Bot Invites** | z`invite` \n **Bot Prefix** | z`prefix` \n **Bot Vote** | z`vote` \n **Bot Vote Verify** | z`verify` \n **Bot Socials** | z`socials`",
+                                        "url": null,
+                                        "timestamp": "2021-05-22T07:23:25.397Z",
+                                        "color": 3553598,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "lovell#6685",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/756843873795571863/2239bb4e9e6188d14d29584cba9ef22d.webp"
+                                        },
+                                        "footer": {
+                                            "text": "Page 3 / 3"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "KARTIK_™",
+                                "avatar": "https://cdn.discordapp.com/avatars/767820210139824159/a9fc9420600c06f370e2fbee6ed3369b.webp",
+                                "content": "zgeneral",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "lovell",
+                                "avatar": "https://cdn.discordapp.com/avatars/756843873795571863/2239bb4e9e6188d14d29584cba9ef22d.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Lovell",
+                                        "type": "rich",
+                                        "description": "*Pinterest, Instagram, Tumblr all in one bot*\n⠀\n⠀",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 3553598,
+                                        "fields": [
+                                            {
+                                                "name": "<:wa_dynoInfo:803532949865103430> Settings",
+                                                "value": "z`general`",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "<a:ggdreams_spinning_rainbow_sheep:803575814250823690> Play Wit Me",
+                                                "value": "z`fun`",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "<:staff:803532468849868821> Authority",
+                                                "value": "z`mod`",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "<a:world:803530116537122825> Lovell's Gallery",
+                                                "value": "z`img`",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "<:verified:803532094139662357> About Lovell",
+                                                "value": "z`about`",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "<:partner:803532215286759454> Credits",
+                                                "value": "z`creds`",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "⠀",
+                                                "value": "⠀",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "Support Lovell",
+                                                "value": "[Server](https://discord.gg/CCe5cFtsq7) ﹒[Invite](https://discord.com/api/oauth2/authorize?client_id=756843873795571863&permissions=134604871&scope=bot) ﹒[Vote 4 Lovell](https://top.gg/bot/756843873795571863/vote) ﹒ [Pinterest](https://www.pinterest.co.uk/lovellbot) ﹒ [Insta](https://www.instagram.com/iluvlovell/)",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "- SΛКSHЏΛM ⸸",
+                                "avatar": "https://cdn.discordapp.com/avatars/745581095747059722/a_ac1d2a282206057b3ada8decb679ede7.webp",
+                                "content": "zhelp",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "lovell",
+                                "avatar": "https://cdn.discordapp.com/avatars/756843873795571863/2239bb4e9e6188d14d29584cba9ef22d.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Lovell | About",
+                                        "type": "rich",
+                                        "description": "*Pinterest, Instagram, Tumblr all in one bot*\n              \n**Founder**\n <@709827684888215582>\n              \n `Discord:` <@709827684888215582> \n `Github:` [7teen](https://github.com/17teen) \n `Telegram:` [7teen](https://t.me/clairvoyant7teen)\n              \n `Lovell Server:` [</3](https://discord.gg/CCe5cFtsq7) \n `Invite Lovell:` [<$](https://discord.com/api/oauth2/authorize?client_id=756843873795571863&permissions=134604871&scope=bot) \n \n              \n **Stats:**\n              \n `Users:` **243671** \n `Servers:` **275**\n              \n **Description:** \n              \n `Creation Date:` 28/05/2020 \n `Latest Update:` 20/12/2020 \n `Language:` JavaScript, Batch \n `Operating System:` Windows , macOS",
+                                        "url": null,
+                                        "timestamp": "2021-05-21T22:09:54.720Z",
+                                        "color": 3553598,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://cdn.discordapp.com/avatars/709827684888215582/a598c2e688d5b2d51176d61b3fbd05be.webp",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/KhGMhLtb3SKAy5FTebbHQ_8fi9RKkE214akUA-6QCjM/https/cdn.discordapp.com/avatars/709827684888215582/a598c2e688d5b2d51176d61b3fbd05be.webp",
+                                            "height": 128,
+                                            "width": 128
+                                        },
+                                        "image": null,
+                                        "author": {
+                                            "name": "lovell#6685",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/756843873795571863/2239bb4e9e6188d14d29584cba9ef22d.webp"
+                                        },
+                                        "footer": {
+                                            "text": "© Lovell | Prefix: z | The thumbnail is lovell's founder current profile picture."
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "ka$hankh",
+                                "avatar": "https://cdn.discordapp.com/avatars/687424325657428020/fad577a58fc632fbf99afe426bb02f62.webp",
+                                "content": "zabout",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Tools",
+                "permissions": [
+                    {
+                        "roleName": "Contributors",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "Skids",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "Cool Devs",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "OG",
+                        "allow": 0,
+                        "deny": 2112
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "readme",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tools",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "__**DISCLAIMER!!!**__\n\n**Any tools that involves selfbotting are now rendered useless and not to be used as selfbotting features have been deprecated in Discord.JS. As a result, no further works will be made to these types of tools.**",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "bladee-anti-nuke",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tools",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**Name:** Bladee.\n**Description:** A tool which protects your server from being destroyed/nuked/wizzed.\n**Tool Version:** v2\n**Possible Updates:** Yes.\n**Tutorial:** Coming Soon.\n**Repo:** https://github.com/17teen/Discord-Bladee-Server-Anti-Nuker\n**Repl.it:** https://replit.com/@17teen/Discord-Bladee-Server-Anti-Nuker?v=1",
+                                "embeds": [
+                                    {
+                                        "title": "17teen/Discord-Bladee-Server-Anti-Nuker",
+                                        "type": "rich",
+                                        "description": "Discord Server Anti Nuke Tool to stop your server from being destroyed. - 17teen/Discord-Bladee-Server-Anti-Nuker",
+                                        "url": "https://github.com/17teen/Discord-Bladee-Server-Anti-Nuker",
+                                        "timestamp": null,
+                                        "color": 1975079,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://opengraph.githubassets.com/d0a43d3ddb39b33fbff23b9028445c081d860cece05f77081a99aafcc5bc1ad8/17teen/Discord-Bladee-Server-Anti-Nuker",
+                                            "proxyURL": "https://images-ext-2.discordapp.net/external/YU9F9r1_McyxPTEnU7AxqRphe7cid4273S2p20adf0w/https/opengraph.githubassets.com/d0a43d3ddb39b33fbff23b9028445c081d860cece05f77081a99aafcc5bc1ad8/17teen/Discord-Bladee-Server-Anti-Nuker",
+                                            "height": 600,
+                                            "width": 1200
+                                        },
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    },
+                                    {
+                                        "title": "Discord-Bladee-Server-Anti-Nuker",
+                                        "type": "rich",
+                                        "description": "Discord Server Anti Raid Tool to stop your server from being destroyed.\n\nIf you want to use global mode do the following:\npackage.json > main property > change from \"./Private/index.js\" to \"./Global/bladee.js\"",
+                                        "url": "https://replit.com/@17teen/Discord-Bladee-Server-Anti-Nuker?v=1",
+                                        "timestamp": null,
+                                        "color": 856094,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://storage.googleapis.com/replit/images/1621402341435_66db863a51a3ff47cdb82b6bad3636b0.png",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/gcpm-YJimrkzMJivkGn1Oxa04KmLn7KAVcutSmzMhBk/https/storage.googleapis.com/replit/images/1621402341435_66db863a51a3ff47cdb82b6bad3636b0.png",
+                                            "height": 1440,
+                                            "width": 2560
+                                        },
+                                        "image": null,
+                                        "author": {
+                                            "name": "17teen"
+                                        },
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "presser-server-nuker",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tools",
+                        "topic": "Disclaimer: This tool was made to show proof of concepts. I am not responsible for what you do with this tool.",
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**Name:** Presser\n**Description:** Destroys a discord server.\n**Tool Version:** V1\n**Possible Updates:** Yes.\n**Tutorial:** Coming Soon.\n**Repo:** https://github.com/17teen/Discord-Presser-Server-Nuker\n**Repl.it:** https://replit.com/@17teen/Discord-Presser-Server-Nuker?v=1\n**Disclaimer: **This is tool was made for educational purposes and proof of concepts. I'm not accountable for any unlawful, unprecedented action and any violation of ToS administered by a third party.",
+                                "embeds": [
+                                    {
+                                        "title": "17teen/Discord-Presser-Server-Nuker",
+                                        "type": "rich",
+                                        "description": "Nuke Discord Bot in Js. Contribute to 17teen/Discord-Presser-Server-Nuker development by creating an account on GitHub.",
+                                        "url": "https://github.com/17teen/Discord-Presser-Server-Nuker",
+                                        "timestamp": null,
+                                        "color": 1975079,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://opengraph.githubassets.com/57e58ab523c4c831e927944ff9b18f3cfb884e063dafda0e5b56955c47d17a80/17teen/Discord-Presser-Server-Nuker",
+                                            "proxyURL": "https://images-ext-2.discordapp.net/external/NOPXJHTfttbsn8SN8MzFX2GbXBklfw6iJxr3AOTsGfo/https/opengraph.githubassets.com/57e58ab523c4c831e927944ff9b18f3cfb884e063dafda0e5b56955c47d17a80/17teen/Discord-Presser-Server-Nuker",
+                                            "height": 600,
+                                            "width": 1200
+                                        },
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    },
+                                    {
+                                        "title": "Discord-Presser-Server-Nuker",
+                                        "type": "rich",
+                                        "description": "Discord Bot in Js that destroys servers",
+                                        "url": "https://replit.com/@17teen/Discord-Presser-Server-Nuker?v=1",
+                                        "timestamp": null,
+                                        "color": 856094,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://storage.googleapis.com/replit/images/1621401649895_66db863a51a3ff47cdb82b6bad3636b0.png",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/pKIg3jQX99fdwVsBnMmLZQhbfDlUD3AE2qkQF2yXr5Q/https/storage.googleapis.com/replit/images/1621401649895_66db863a51a3ff47cdb82b6bad3636b0.png",
+                                            "height": 1440,
+                                            "width": 2560
+                                        },
+                                        "image": null,
+                                        "author": {
+                                            "name": "17teen"
+                                        },
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "rich-presence",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tools",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**Name:** N/A\n**Description:** A tool which enhances your profile appearance with features like party mode and cycle mode.\n**Tool Version:** V1\n**Possible Updates:** Yes.\n**Tutorial:** Coming Soon.\n**Repo:** https://github.com/17teen/Discord-Rich-Presence-Party-Mode",
+                                "embeds": [
+                                    {
+                                        "title": "17teen/Discord-Rich-Presence-Party-Mode",
+                                        "type": "rich",
+                                        "description": "Discord Rich Presence Tool. Party Mode | Cycle Mode integrated. The first to do it. - 17teen/Discord-Rich-Presence-Party-Mode",
+                                        "url": "https://github.com/17teen/Discord-Rich-Presence-Party-Mode",
+                                        "timestamp": null,
+                                        "color": 1975079,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://opengraph.githubassets.com/daf920233ff5fcc200facdb3a45c72f647d4609ba84bc79a91339ffdc13b0979/17teen/Discord-Rich-Presence-Party-Mode",
+                                            "proxyURL": "https://images-ext-2.discordapp.net/external/FCLLPDjxWRBcf7Q38kKddiw_hoE-jmfxceIME9p7PYI/https/opengraph.githubassets.com/daf920233ff5fcc200facdb3a45c72f647d4609ba84bc79a91339ffdc13b0979/17teen/Discord-Rich-Presence-Party-Mode",
+                                            "height": 600,
+                                            "width": 1200
+                                        },
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "mass-dm",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tools",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**Name:** N/A\n**Description:** A tool which mass privately messages every user in a server (users with dms off are exempt)\n**Tool Version:** V3 Revamp\n**Possible Updates:** N/A\n**Tutorial:** Coming Soon.\n**Repo:** https://github.com/17teen/Discord-Mass-DM-Tool\n**Repl.it:** https://replit.com/@17teen/Discord-Mass-DM-Tool?v=1\n**Disclaimer: **This is tool was made for educational purposes and proof of concepts. I'm not accountable for any unlawful, unprecedented action and any violation of ToS administered by a third party.",
+                                "embeds": [
+                                    {
+                                        "title": "17teen/Discord-Mass-DM-Tool",
+                                        "type": "rich",
+                                        "description": "Tool which messages everyone in a Discord server (If user has DM's off they cannot be messaged). - 17teen/Discord-Mass-DM-Tool",
+                                        "url": "https://github.com/17teen/Discord-Mass-DM-Tool",
+                                        "timestamp": null,
+                                        "color": 1975079,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://opengraph.githubassets.com/f1e81e30c257e572408d400fe2a33d6b9e2a50a76300818d8130e39772e0eec0/17teen/Discord-Mass-DM-Tool",
+                                            "proxyURL": "https://images-ext-2.discordapp.net/external/YIZ0JvTYgaHAk86bg1FIOg7A5NHNa5Pz0DplZ5MlP90/https/opengraph.githubassets.com/f1e81e30c257e572408d400fe2a33d6b9e2a50a76300818d8130e39772e0eec0/17teen/Discord-Mass-DM-Tool",
+                                            "height": 600,
+                                            "width": 1200
+                                        },
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    },
+                                    {
+                                        "title": "Discord-Mass-DM-Tool",
+                                        "type": "rich",
+                                        "description": "A Discord Bot tool that will message everyone in your server. Mass DM Tool V3",
+                                        "url": "https://replit.com/@17teen/Discord-Mass-DM-Tool?v=1",
+                                        "timestamp": null,
+                                        "color": 856094,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://storage.googleapis.com/replit/images/1621400931411_66db863a51a3ff47cdb82b6bad3636b0.png",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/OTJZcDSF1OWrCRlmsq_bg0I-inWilJzJXBBu-6SdT54/https/storage.googleapis.com/replit/images/1621400931411_66db863a51a3ff47cdb82b6bad3636b0.png",
+                                            "height": 1440,
+                                            "width": 2560
+                                        },
+                                        "image": null,
+                                        "author": {
+                                            "name": "17teen"
+                                        },
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "rainbow-role",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tools",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Contributors",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Skids",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Cool Devs",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "OG",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**Name:** Rainbow Role\n**Description:** Creates a role which rotates between colours giving a rainbow like effect.\n**Tool Version:** V2\n**Possible Updates:** N/A\n**Tutorial:** https://www.youtube.com/watch?v=rP25VX6de4A\n**Repo:** https://github.com/17teen/Rainbow-role\n**Repl.it:** https://replit.com/@17teen/Rainbow-role?v=1",
+                                "embeds": [
+                                    {
+                                        "title": "Discord Rainbow Role Tool: V2",
+                                        "type": "rich",
+                                        "description": "src: https://github.com/17teen/Rainbow-role\n\ndiscord: 7teen#3868\nserver: https://discord.gg/4nSYqZ8KAA",
+                                        "url": "https://www.youtube.com/watch?v=rP25VX6de4A",
+                                        "timestamp": null,
+                                        "color": 16711680,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://i.ytimg.com/vi/rP25VX6de4A/maxresdefault.jpg",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/zVef4pX8KjK7R260UG3_dW9AdDe_s69GCdHKDzsCDfg/https/i.ytimg.com/vi/rP25VX6de4A/maxresdefault.jpg",
+                                            "height": 720,
+                                            "width": 1280
+                                        },
+                                        "image": null,
+                                        "author": {
+                                            "name": "7teen",
+                                            "url": "https://www.youtube.com/channel/UC4PEPbLPaLkiJf4Y-uZ9p9Q"
+                                        },
+                                        "footer": null
+                                    },
+                                    {
+                                        "title": "17teen/Rainbow-role",
+                                        "type": "rich",
+                                        "description": "Creates a role and rotates color to produce a rainbow. V2 - 17teen/Rainbow-role",
+                                        "url": "https://github.com/17teen/Rainbow-role",
+                                        "timestamp": null,
+                                        "color": 1975079,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://opengraph.githubassets.com/e81612c719e633d3a6d714a66fc66427f2ab86f59b577f791439e441e3b1ac16/17teen/Rainbow-role",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/0cYLBGJvL9ZuiBdzuFLKmqB3Y2WsDxWCXENKYayjbqI/https/opengraph.githubassets.com/e81612c719e633d3a6d714a66fc66427f2ab86f59b577f791439e441e3b1ac16/17teen/Rainbow-role",
+                                            "height": 600,
+                                            "width": 1200
+                                        },
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    },
+                                    {
+                                        "title": "Rainbow-role",
+                                        "type": "rich",
+                                        "description": "Creates a role and rotates color to produce a rainbow. V2",
+                                        "url": "https://replit.com/@17teen/Rainbow-role?v=1",
+                                        "timestamp": null,
+                                        "color": 856094,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://storage.googleapis.com/replit/images/1621401413348_66db863a51a3ff47cdb82b6bad3636b0.png",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/aEBVYBsfWzQtuWYTWt29Pwin8j2Od6pKMWX2aTCHTgM/https/storage.googleapis.com/replit/images/1621401413348_66db863a51a3ff47cdb82b6bad3636b0.png",
+                                            "height": 1440,
+                                            "width": 2560
+                                        },
+                                        "image": null,
+                                        "author": {
+                                            "name": "17teen"
+                                        },
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Staff",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    },
+                    {
+                        "roleName": "Contributors",
+                        "allow": 1049600,
+                        "deny": 0
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "staff-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Contributors",
+                                "allow": 1049600,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "bots",
+                                "allow": 0,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Emoji.gg Bot",
+                                "allow": 268758096,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Sinner Test",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": ",backup-create",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "lemme try something",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": "@​bando sensei im on phone rn n bored should i make a support srv yet?",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": ".CRYPTO",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "alr cool",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": "wait i got hw first",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "hm?",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "https://prod.liveshare.vsengsaas.visualstudio.com/join?9CC9119C7B5E1CD53F74FBFECD3D6502C2ED",
+                                "embeds": [
+                                    {
+                                        "title": "Join my Visual Studio Live Share session",
+                                        "type": "rich",
+                                        "description": "Real-time collaborative development",
+                                        "url": "https://prod.liveshare.vsengsaas.visualstudio.com/join?9CC9119C7B5E1CD53F74FBFECD3D6502C2ED",
+                                        "timestamp": null,
+                                        "color": null,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://aka.ms/vsls-logo",
+                                            "proxyURL": "https://images-ext-2.discordapp.net/external/jxhyqQxAdddGOG-CKdtxT8jkv7JZxfkr9q5TTCL1ovA/https/aka.ms/vsls-logo",
+                                            "height": 630,
+                                            "width": 900
+                                        },
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": "am i bugging",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": "i ait",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "music bot test",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Staff",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Contributors",
+                                "allow": 1049600,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2097664
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "resources",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Contributors",
+                                "allow": 1048576,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**bio:**\n\n```\nhttps://discohook.org/?data=eyJtZXNzYWdlcyI6W3siZGF0YSI6eyJjb250ZW50IjpudWxsLCJlbWJlZHMiOlt7ImRlc2NyaXB0aW9uIjoiKiriloTvuLvjg4c3dGVlbuKVkOKVkOKUgeS4gCoqXG5cbjd0ZWVuIGJ1dCBjYWxsIG1lIGFjZS5cblxuKipzb2NpYWxzKipcblxuKyBZb3V0dWJlOiBbQ2xpY2sgSGVyZV0oaHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQzRQRVBiTFBhTGtpSmY0WS11WjlwOVEpXG4vIFN0ZWFtOiBbQ2xpY2sgSGVyZV0oaHR0cHM6Ly9zdGVhbWNvbW11bml0eS5jb20vaWQvc2V2ZW43Nzd0ZWVuLykgXG4rIEluc3RhZ3JhbTogW0NsaWNrIEhlcmVdKGh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vaWx1dmxvdmVsbC8pXG5cbioqY29udGFjdCoqXG5cbisgRGlzY29yZDogW0NsaWNrIEhlcmVdKGh0dHBzOi8vZGlzY29yZC5jb20vdXNlcnMvNzA5ODI3Njg0ODg4MjE1NTgyKVxuLyBUZWxlZ3JhbTogW0NsaWNrIEhlcmVdKGh0dHBzOi8vdC5tZS9jbGFpcnZveWFudDd0ZWVuKVxuXG4qKnN1cHBvcnQgbWUqKlxuXG4rIERpc2NvcmQgQm90ICh2ZXJpZmllZCk6IFtJbnZpdGUgTG92ZWxsXShodHRwczovL2Rpc2NvcmQuY29tL2FwaS9vYXV0aDIvYXV0aG9yaXplP2NsaWVudF9pZD03NTY4NDM4NzM3OTU1NzE4NjMmcGVybWlzc2lvbnM9MTM0NjA0ODcxJnNjb3BlPWJvdClcbi8gRWRpdGluZyBDaGFubmVsOiBbQ2xpY2sgSGVyZV0oaHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQ0NJMVI4dGllSDZ1TDluRjBHZ2lxalEpXG4rIERpc2NvcmQgQ29tbXVuaXR5IFNlcnZlcjogW0pvaW5dKGh0dHBzOi8vZGlzY29yZC5nZy9DQ2U1Y0Z0c3E3KSIsImNvbG9yIjozNTUzNTk5fV19fV19\n```",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**tools specification brief:**\n\n```\n**Name:**\n**Description:**\n**Tool Version:**\n**Possible Updates:**\n**Tutorial:**\n**Repo:**\n```",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "```\nhttps://discohook.org/?data=eyJtZXNzYWdlcyI6W3siZGF0YSI6eyJjb250ZW50IjpudWxsLCJlbWJlZHMiOlt7ImRlc2NyaXB0aW9uIjoiKiriloTvuLvjg4c3dGVlbuKVkOKVkOKUgeS4gCoqIiwiY29sb3IiOjM1NTM1OTl9LHsiZGVzY3JpcHRpb24iOiIqKnJ1bGVzKipcbiBcbisgZm9sbG93IGRpc2NvcmQncyBbdG9zXShodHRwczovL2Rpc2NvcmQuY29tL3Rlcm1zKS5cbi8gZG9uJ3QgZGlzcmVzcGVjdCBhbnlvbmUuXG4rIHN0YXIgbXkgcmVwbyhzKSBpZiB1c2VkLlxuXG4qKnRvb2wocykgZmFxKipcblxuKyBpZiB5b3UgaGF2ZSBhbiBpc3N1ZSBnbyB0byA8Iz5cbi8gaWYgeW91IHdhbnQgdG8gbWFrZSBhIHJlcXVlc3QgPCM-XG5cbioqbm90ZSoqXG5cbisgKihSZXF1ZXN0cyBtdXN0IHJlbGF0ZSB0byBtYWluIHB1cnBvc2Ugb2YgdGhlIHNjcmlwdCkqXG4vICooUmVhZCB0aGUgUkVBRE1FIG9mIGVhY2ggdG9vbCkqXG4rICooRG9uJ3QgYmUgc3VycHJpc2VkIGlmIEkgc2VlbSBibHVudCBpZiB5b3UgKipmYWlsZWQqKiB0byByZWFkIGEgc2VjdGlvbiBvZiB0aGUgUkVBRE1FKSoiLCJjb2xvciI6MzU1MzU5OX0seyJjb2xvciI6MzU1MzU5OSwiZm9vdGVyIjp7InRleHQiOiJSZWFjdCB0byB2ZXJpZnkuIn0sImltYWdlIjp7InVybCI6Imh0dHBzOi8vbWVkaWEuZGlzY29yZGFwcC5uZXQvYXR0YWNobWVudHMvNzkwNDk4MTYxNTMzNTE3ODM1Lzg0MDUyMjk4NjEyOTcxOTM1Ni9idXJua2FzLmpwZyJ9fV19fV19\n```",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "**rules embed**",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "music bot test 2",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Staff",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Contributors",
+                                "allow": 1049600,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2097664
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "dont-delete-this-channel",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Contributors",
+                                "allow": 1049600,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": ".setupmute",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "",
+                                "embeds": [],
+                                "files": [
+                                    {
+                                        "name": "sinSquad.png",
+                                        "attachment": "https://cdn.discordapp.com/attachments/843960914779701298/845974229131591705/sinSquad.png"
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "\\<a:sinLoading:845954718601576459>",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "its hella buggy",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "i got something better",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "isnt that what u wanted?",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "well yh",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "wait, we gotta add that for every command?",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "kay kay",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "7teen",
+                                "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                                "content": "@​bando sensei cooldown",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "purge-test",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Contributors",
+                                "allow": 1049600,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": ".purge 19000",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": ".purge",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": ".purge @​godnesss",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": ".purge @​godnesss 100",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": ".purge",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": ".purge 1000",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": "s",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": "s",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "h_h",
+                                "avatar": "https://cdn.discordapp.com/avatars/246208117178630144/6134d9ff3ba92aa592020441fb894b2f.webp",
+                                "content": "s",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "sinner",
+                                "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "> <:sinWarning:843271345990008853>, <@709827684888215582>: You are currently on cooldown. Cooldown: **0s**",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 16776960,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "sinner-fun",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2048,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "sinner — mute",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "sinner — imute",
+                                "allow": 0,
+                                "deny": 32768
+                            },
+                            {
+                                "roleName": "sinner — rmute",
+                                "allow": 0,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": ".lockdown disable",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": ".lockdown enable",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": ".lockdown enable",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "sinner",
+                                "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "> <:sinWarning:843271345990008853>   <@275240603447721984>: Proper usage: `.lockdown <enable/disable> <channel>`",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 16776960,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": ".lockdown",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "sinner",
+                                "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "> <:sinWarning:843271345990008853>   <@275240603447721984>: Proper usage: `.lockdown <enable/disable> <channel>`",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": null,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": ".lockdown",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": ".lockdown",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": ".lockdown enable",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "bando sensei",
+                                "avatar": "https://cdn.discordapp.com/avatars/275240603447721984/a_1d4371c69a06ba170d0508bed5147b64.webp",
+                                "content": "@​tears",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "text",
+                "name": "verify",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": "Captcha",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "sinner — mute",
+                        "allow": 0,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "sinner — imute",
+                        "allow": 0,
+                        "deny": 32768
+                    },
+                    {
+                        "roleName": "sinner — rmute",
+                        "allow": 0,
+                        "deny": 64
+                    }
+                ],
+                "messages": [
+                    {
+                        "username": "7teen",
+                        "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                        "content": "**Disclaimer to any discord staff:**\n\nI do not sell any illegal or misuse of ToS tools. This server simply lists tools that I have created to show proof of concepts and a support server for those who are having trouble with my tools.",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "7teen",
+                        "avatar": "https://cdn.discordapp.com/avatars/709827684888215582/1aad3e1a7fe1194b21ff2fb88587c96c.webp",
+                        "content": "**If verification does not work DM @Vissage members or me.**",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "17",
+                        "avatar": "https://cdn.discordapp.com/avatars/840142112750436372/8de962f553b5bbeb93ed938655440c4b.webp",
+                        "content": "https://discord.gg/4nSYqZ8KAA",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "17",
+                        "avatar": "https://cdn.discordapp.com/avatars/840142112750436372/8de962f553b5bbeb93ed938655440c4b.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": null,
+                                "type": "rich",
+                                "description": "**▄︻デ7teen══━一**",
+                                "url": null,
+                                "timestamp": null,
+                                "color": 3553599,
+                                "fields": [],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": null
+                            },
+                            {
+                                "title": null,
+                                "type": "rich",
+                                "description": "**rules**\n \n+ follow discord's [tos](https://discord.com/terms).\n/ don't disrespect anyone.\n+ star my repo(s) if used.\n\n**tool(s) faq**\n\n+ if you have an issue go to <#840138711454842891>\n/ if you want to make a request <#840138729687613460>\n\n**note**\n\n+ *(Requests must relate to main purpose of the script)*\n/ *(Read the README of each tool)*\n+ *(Don't be surprised if I seem blunt if you **failed** to read a section of the README)*",
+                                "url": null,
+                                "timestamp": null,
+                                "color": 3553599,
+                                "fields": [],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": null
+                            },
+                            {
+                                "title": null,
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": null,
+                                "color": 3553599,
+                                "fields": [],
+                                "thumbnail": null,
+                                "image": {
+                                    "url": "https://media.discordapp.net/attachments/790498161533517835/840522986129719356/burnkas.jpg",
+                                    "proxyURL": "https://images-ext-2.discordapp.net/external/4izeamiGX7OV6RwcZ10X2VmKvcVImmDPsdL9Isa9OQ4/https/media.discordapp.net/attachments/790498161533517835/840522986129719356/burnkas.jpg",
+                                    "height": 500,
+                                    "width": 500
+                                },
+                                "author": null,
+                                "footer": {
+                                    "text": "React to verify."
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    }
+                ],
+                "isNews": false
+            },
+            {
+                "type": "voice",
+                "name": "test2",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "sinner — mute",
+                        "allow": 0,
+                        "deny": 2097664
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "name": "sinner-logs",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "sinner — mute",
+                        "allow": 0,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "sinner — imute",
+                        "allow": 0,
+                        "deny": 32768
+                    },
+                    {
+                        "roleName": "sinner — rmute",
+                        "allow": 0,
+                        "deny": 64
+                    }
+                ],
+                "messages": [
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Added Role To Member.",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T18:02:12.139Z",
+                                "color": 4286945,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> Added to:",
+                                        "value": "<@141174702977581056>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> Role:",
+                                        "value": "<@&840137957213470731>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> By User:",
+                                        "value": "<@235148962103951360>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Added:",
+                                        "value": "20:2, Mon May 24 2021",
+                                        "inline": true
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "proxyURL": "https://images-ext-1.discordapp.net/external/JsThLm0E6xgNAE8wte7m7zqH1G7FPSIlMnKilc39K5E/https/cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Carl-bot#1536",
+                                    "icon_url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Removed Role From Member.",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T12:12:51.059Z",
+                                "color": 15105570,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> Removed from:",
+                                        "value": "<@830042079815532564>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinRemove:843590348227477516> Role:",
+                                        "value": "<@&846089771122032671>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> By User:",
+                                        "value": "<@755498713878888570>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Removed:",
+                                        "value": "12:12, Mon May 24 2021",
+                                        "inline": true
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "proxyURL": "https://images-ext-1.discordapp.net/external/JsThLm0E6xgNAE8wte7m7zqH1G7FPSIlMnKilc39K5E/https/cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "sinner#3535",
+                                    "icon_url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Removed Role From Member.",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T12:12:47.194Z",
+                                "color": 15105570,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> Removed from:",
+                                        "value": "<@830042079815532564>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinRemove:843590348227477516> Role:",
+                                        "value": "<@&846082191855583232>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> By User:",
+                                        "value": "<@755498713878888570>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Removed:",
+                                        "value": "12:12, Mon May 24 2021",
+                                        "inline": true
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "proxyURL": "https://images-ext-1.discordapp.net/external/JsThLm0E6xgNAE8wte7m7zqH1G7FPSIlMnKilc39K5E/https/cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "sinner#3535",
+                                    "icon_url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Added Role To Member.",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T12:12:27.671Z",
+                                "color": 4286945,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> Added to:",
+                                        "value": "<@830042079815532564>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> Role:",
+                                        "value": "<@&846089771122032671>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> By User:",
+                                        "value": "<@755498713878888570>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Added:",
+                                        "value": "12:12, Mon May 24 2021",
+                                        "inline": true
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "proxyURL": "https://images-ext-1.discordapp.net/external/JsThLm0E6xgNAE8wte7m7zqH1G7FPSIlMnKilc39K5E/https/cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "sinner#3535",
+                                    "icon_url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Added Role To Member.",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T12:12:22.933Z",
+                                "color": 4286945,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> Added to:",
+                                        "value": "<@830042079815532564>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> Role:",
+                                        "value": "<@&846082191855583232>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> By User:",
+                                        "value": "<@755498713878888570>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Added:",
+                                        "value": "12:12, Mon May 24 2021",
+                                        "inline": true
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "proxyURL": "https://images-ext-1.discordapp.net/external/JsThLm0E6xgNAE8wte7m7zqH1G7FPSIlMnKilc39K5E/https/cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "sinner#3535",
+                                    "icon_url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Added Role To Member.",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T09:36:20.012Z",
+                                "color": 4286945,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> Added to:",
+                                        "value": "<@534985360468606976>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> Role:",
+                                        "value": "<@&840137957213470731>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> By User:",
+                                        "value": "<@235148962103951360>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Added:",
+                                        "value": "9:36, Mon May 24 2021",
+                                        "inline": true
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "proxyURL": "https://images-ext-1.discordapp.net/external/JsThLm0E6xgNAE8wte7m7zqH1G7FPSIlMnKilc39K5E/https/cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Carl-bot#1536",
+                                    "icon_url": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Member Nickname Updated.",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T08:58:11.506Z",
+                                "color": 4286945,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> User:",
+                                        "value": "<@!764991732035092552>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> Old Nickname:",
+                                        "value": "yo",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> New Nickname:",
+                                        "value": "7teen’s owner",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> By User:",
+                                        "value": "<@764991732035092552>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Updated:",
+                                        "value": "8:58, Mon May 24 2021",
+                                        "inline": true
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/8d0641520983f979b4bba1205cd88e96.webp",
+                                    "proxyURL": "https://images-ext-2.discordapp.net/external/OM6pENDYoz2m4DEBOr7FWd2pWmZKtFLdyLzhl7D3x6c/https/cdn.discordapp.com/avatars/755498713878888570/8d0641520983f979b4bba1205cd88e96.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "/17teen",
+                                    "icon_url": "https://cdn.discordapp.com/icons/840136368768417822/2519058282c5d7d6595b1491535acad3.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Member Nickname Updated.",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T08:43:19.435Z",
+                                "color": 4286945,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> User:",
+                                        "value": "<@574925212706013196>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> Old Nickname:",
+                                        "value": "<@574925212706013196>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> New Nickname:",
+                                        "value": "! Angkani・Jose",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> By User:",
+                                        "value": "<@574925212706013196>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Updated:",
+                                        "value": "8:43, Mon May 24 2021",
+                                        "inline": true
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/9d7f87df3c89cab81d8b3fd847be3b4a.webp",
+                                    "proxyURL": "https://images-ext-1.discordapp.net/external/mKzq_K2s4rr19WGEiBMMAfadUX4NFbh87qXIyRm0qZo/https/cdn.discordapp.com/avatars/755498713878888570/9d7f87df3c89cab81d8b3fd847be3b4a.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "/17teen",
+                                    "icon_url": "https://cdn.discordapp.com/icons/840136368768417822/2519058282c5d7d6595b1491535acad3.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Message Deleted",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T06:18:35.674Z",
+                                "color": 15158332,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinChannel:843445474525577238>Channel:",
+                                        "value": "⠀<#840138711454842891>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> 🗒️ Msg. ID:",
+                                        "value": "846270908938977290",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "​",
+                                        "value": "​",
+                                        "inline": false
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534>Sent By:",
+                                        "value": "⠀<@574925212706013196>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Message Sent:",
+                                        "value": "6:18, Mon May 24 2021",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "​",
+                                        "value": "​",
+                                        "inline": false
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> Message:",
+                                        "value": "**,help**",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/8cf2eabdb16b397954eb4f978cb77b5c.webp",
+                                    "proxyURL": "https://images-ext-2.discordapp.net/external/Sxcjg7Y6MgKo33BTTbiMmfHOhUfNtx7y1atv7wR7B2c/https/cdn.discordapp.com/avatars/755498713878888570/8cf2eabdb16b397954eb4f978cb77b5c.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "/17teen",
+                                    "icon_url": "https://cdn.discordapp.com/icons/840136368768417822/2519058282c5d7d6595b1491535acad3.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "sinner",
+                        "avatar": "https://cdn.discordapp.com/avatars/755498713878888570/26bbef9aac9bc50ede283d7d314594dd.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Added Role To Member.",
+                                "type": "rich",
+                                "description": null,
+                                "url": null,
+                                "timestamp": "2021-05-24T03:16:01.790Z",
+                                "color": 4286945,
+                                "fields": [
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> Added to:",
+                                        "value": "<@294249620702363648>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinAdd:843584179135971388> Role:",
+                                        "value": "<@&840137957213470731>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> <:sinCreate:843569240811241534> By User:",
+                                        "value": "<@235148962103951360>",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "> :calendar: Added:",
+                                        "value": "3:16, Mon May 24 2021",
+                                        "inline": true
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "url": "https://cdn.discordapp.com/avatars/755498713878888570/8cf2eabdb16b397954eb4f978cb77b5c.webp",
+                                    "proxyURL": "https://images-ext-2.discordapp.net/external/Sxcjg7Y6MgKo33BTTbiMmfHOhUfNtx7y1atv7wR7B2c/https/cdn.discordapp.com/avatars/755498713878888570/8cf2eabdb16b397954eb4f978cb77b5c.webp",
+                                    "height": 128,
+                                    "width": 128
+                                },
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Carl-bot#1536",
+                                    "icon_url": "https://cdn.discordapp.com/avatars/755498713878888570/8cf2eabdb16b397954eb4f978cb77b5c.webp"
+                                }
+                            }
+                        ],
+                        "files": [],
+                        "pinned": false
+                    }
+                ],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "7teen",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": 104320585,
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Vissage",
+            "color": "#9b59b6",
+            "hoist": true,
+            "permissions": 238538313,
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "bots",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 238406217,
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Contributors",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Cool Devs",
+            "color": "#e67e22",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "OG",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "Cool Kids",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": 104188481,
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "Skids",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "Sinner Test",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104188481,
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "sinner — mute",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "sinner — imute",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "sinner — rmute",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104188481,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [
+        {
+            "name": "sinWarning",
+            "url": "https://cdn.discordapp.com/emojis/843271345990008853.png"
+        },
+        {
+            "name": "sinSuccess",
+            "url": "https://cdn.discordapp.com/emojis/843271346091851787.png"
+        },
+        {
+            "name": "sinOwner",
+            "url": "https://cdn.discordapp.com/emojis/843443542474358802.png"
+        },
+        {
+            "name": "sinVerified",
+            "url": "https://cdn.discordapp.com/emojis/843444561665982494.png"
+        },
+        {
+            "name": "sinChannel",
+            "url": "https://cdn.discordapp.com/emojis/843445474525577238.png"
+        },
+        {
+            "name": "sinNodeJS",
+            "url": "https://cdn.discordapp.com/emojis/843447133888577596.png"
+        },
+        {
+            "name": "myfaultOG",
+            "url": "https://cdn.discordapp.com/emojis/843448324714397696.gif"
+        },
+        {
+            "name": "sinDiscord",
+            "url": "https://cdn.discordapp.com/emojis/843448398672953366.png"
+        },
+        {
+            "name": "sinCpu",
+            "url": "https://cdn.discordapp.com/emojis/843448783991603200.png"
+        },
+        {
+            "name": "sinPartner",
+            "url": "https://cdn.discordapp.com/emojis/843454488470618173.gif"
+        },
+        {
+            "name": "CH_IconPartnerBadgeShining",
+            "url": "https://cdn.discordapp.com/emojis/843454514890932224.gif"
+        },
+        {
+            "name": "sinDevs",
+            "url": "https://cdn.discordapp.com/emojis/843454883965435914.gif"
+        },
+        {
+            "name": "sinVerification",
+            "url": "https://cdn.discordapp.com/emojis/843472137948102726.png"
+        },
+        {
+            "name": "sinVoice",
+            "url": "https://cdn.discordapp.com/emojis/843474019650240563.png"
+        },
+        {
+            "name": "sinRoles",
+            "url": "https://cdn.discordapp.com/emojis/843474919512997898.png"
+        },
+        {
+            "name": "gg_nitro_boost",
+            "url": "https://cdn.discordapp.com/emojis/843478182320537600.gif"
+        },
+        {
+            "name": "sinBoost",
+            "url": "https://cdn.discordapp.com/emojis/843478246419070986.png"
+        },
+        {
+            "name": "sinOnline",
+            "url": "https://cdn.discordapp.com/emojis/843481848155996170.png"
+        },
+        {
+            "name": "sinDnd",
+            "url": "https://cdn.discordapp.com/emojis/843481986243756054.png"
+        },
+        {
+            "name": "sinOffline",
+            "url": "https://cdn.discordapp.com/emojis/843482011733590026.png"
+        },
+        {
+            "name": "sinIdle",
+            "url": "https://cdn.discordapp.com/emojis/843490419349913620.png"
+        },
+        {
+            "name": "sinSpotify",
+            "url": "https://cdn.discordapp.com/emojis/843541433122291743.png"
+        },
+        {
+            "name": "sinBadges",
+            "url": "https://cdn.discordapp.com/emojis/843568042192797716.gif"
+        },
+        {
+            "name": "sinCreate",
+            "url": "https://cdn.discordapp.com/emojis/843569240811241534.png"
+        },
+        {
+            "name": "sinAdd",
+            "url": "https://cdn.discordapp.com/emojis/843584179135971388.png"
+        },
+        {
+            "name": "sinRemove",
+            "url": "https://cdn.discordapp.com/emojis/843590348227477516.png"
+        },
+        {
+            "name": "sinVoice2",
+            "url": "https://cdn.discordapp.com/emojis/845593836339462194.png"
+        },
+        {
+            "name": "sinError",
+            "url": "https://cdn.discordapp.com/emojis/845596112818667562.png"
+        },
+        {
+            "name": "sinPlay",
+            "url": "https://cdn.discordapp.com/emojis/845639319804968963.gif"
+        },
+        {
+            "name": "MusicBeat",
+            "url": "https://cdn.discordapp.com/emojis/845639433856221224.gif"
+        },
+        {
+            "name": "URL",
+            "url": "https://cdn.discordapp.com/emojis/845657935539208212.gif"
+        },
+        {
+            "name": "sinLoading",
+            "url": "https://cdn.discordapp.com/emojis/845954718601576459.gif"
+        },
+        {
+            "name": "sinPin",
+            "url": "https://cdn.discordapp.com/emojis/846072368576856105.gif"
+        }
+    ],
+    "createdTimestamp": 1621883918921,
+    "guildID": "840136368768417822",
+    "id": "846467249664557056",
+    "iconURL": "https://cdn.discordapp.com/icons/840136368768417822/2519058282c5d7d6595b1491535acad3.webp"
+}

@@ -10,7 +10,7 @@ module.exports = class IconCommand extends Commando.Command {
       group: "info",
       memberName: 'icon',
       usage: "icon",
-      aliases: ["server-icon", "guild-icon"],
+      aliases: ["server-icon", "guild-icon", "sicon"],
       argsType:'multiple',
       clientPermissions: ["EMBED_LINKS"],
             userPermissions: ['SEND_MESSAGES'],
@@ -33,8 +33,6 @@ module.exports = class IconCommand extends Commando.Command {
     const embed = new MessageEmbed()
       .setColor('#2f3136')
       .setTitle(`Server icon of ${message.guild.name}`)
-      .setTimestamp()
-      .setFooter("© Spartan")
       .setImage(icon);
     message.channel.send({ embed });
 

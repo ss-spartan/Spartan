@@ -33,11 +33,6 @@ module.exports = class AvatarCommand extends Commando.Command {
                         image: {
                             url: `${member.user.displayAvatarURL({ dynamic: true })}?size=4096`
                         },
-                        timestamp: new Date(),
-                        footer: {
-                            text: "© Spartan",
-                            icon_url: message.guild.iconURL({ dynamic: true })
-                        }
                     }
                 });
             } else {
@@ -48,11 +43,6 @@ module.exports = class AvatarCommand extends Commando.Command {
                         image: {
                             url: `${message.author.displayAvatarURL({ dynamic: true })}?size=4096`
                         },
-                        timestamp: new Date(),
-                        footer: {
-                            text: "© Spartan" , 
-                            icon_url: message.guild.iconURL({ dynamic: true })
-                        }
                     }
                 });
             };

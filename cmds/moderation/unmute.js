@@ -34,12 +34,11 @@ module.exports = class UnmuteCommand extends Command {
         const mutedRole = message.guild.roles.cache.find(role => role.name === 'Muted');
         if (!mutedRole)
             return message.channel.send(
-                'Role "Muted" Doesn\'t exist. Create the role first and then try again.'
+                'They\'re not muted.'
             );
         const user = userToUnmute;
         if (!user)
             return message.channel.send('Please try again with a Valid User.');
-            if (!user.roles.cache.has(mutedRole.id)) return message.channel.send(`${message.author}, they're already unmuted.`)
         user.roles
             .remove(mutedRole)
             .then(() => {

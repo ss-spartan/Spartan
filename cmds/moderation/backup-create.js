@@ -15,7 +15,7 @@ const backup = require("discord-backup");
                 description: 'Creates a backup for the server. `Note that this command will use a webhook to send the deleted messages whenever you decide to load it.`',
                 argsType: 'multiple',
                 guildOnly: true,
-                clientPermissions: ["ADMINISTRATOR"],
+                clientPermissions: ["MANAGE_GUILD"],
             userPermissions: ['ADMINISTRATOR'],
             throttling: {
               usages: 3,

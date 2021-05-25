@@ -135,34 +135,58 @@ client.on('ready', async () => {
   });
 })
 
+
 const chalk = require("chalk")
 client.on('commandRun', (cmd, promise, msg) => {
   if (msg.guild !== null) {
-    console.log(chalk.cyan.bold(`Running`, chalk.red.bold `${cmd.name}`, chalk.yellow.bold(`in`), `${msg.guild.name}`, chalk.red.bold(`by`), `${msg.author.tag}`))
+    console.log(chalk.cyan.bold(`Running`, chalk.red.bold `${cmd.name}`, chalk.yellow.bold(`in`), `${msg.guild.name}`, chalk.red.bold(`by`), `${msg.author.tag}`, chalk.red.bold(`at`), `${moment(msg.createdAt).format('MM/DD/YYYY h:mm A')}`, chalk.yellow.bold(`in`), `${msg.channel.name}`))
   }
 })
 client.on('disconnect', event => {
   client.logger.error(`[DISCONNECT] Disconnected with code ${event.code}.`);
   process.exit(0);
 });
-const db =require("quick.db")
-client.on('messageDelete', async message => {
-  db.set(`msg_${message.channel.id}`, message.content)
-  db.set(`author_${message.channel.id}`, message.author.id)
+client.on("guildMemberAdd", async member => {
+  let asd = await db.fetch(`autorole_${member.guild.id}`)
+  if (asd === null) return;
+  let role = await member.guild.roles.cache.get(asd)
+  await member.roles.add(role)
 })
 
-client.on('guildMemberAdd', async member => {
-  const channel = member.guild.channels.cache.get('830113325584613436');
-  const youroles = member.guild.channels.cache.get('830116181825945600')
-  const coloroles = member.guild.channels.cache.get('830116603155709983')
-  if (!channel) return;
-
-  channel.send(`welcome to ecstasy ${member.user} check out ${youroles} and ${coloroles} for roles.`)
-});
 
 
 
 
+const {
+  Database
+} = require('xen.db');
+const db = new Database() ///can use quick.db here n just remove const db = new Database()
+
+client.on("messageDelete", (message) => {
+  db.set(`msg_${message.channel.id}`, {
+    content: message.content,
+    author: message.author.tag,
+    user: message.author,
+    member: message.member,
+    image: message.attachments.first() ? message.attachments.first().proxyURL : null
+  })
+})
+
+client.on('messageDelete', async message => {
+  if (message.channel.type === 'dm') return;
+  let channel = db.get(`guild_${message.guild.id}`)
+  if (channel == null) return;
+  if (message.author.bot) return;
+  let kanal = db.fetch(`log_${message.guild.id}`)
+  var embed = new Discord.MessageEmbed()
+    .setDescription(`**<@${message.author.id}> Deleted Message**`)
+    .setColor("RED")
+    .setThumbnail(message.author.displayAvatarURL())
+    .addField(`Channel`, `<#${message.channel.id}>`)
+    .addField('Message', '**\`' + message.content + '\`**')
+    .setTimestamp()
+  client.channels.cache.get(channel).send(embed)
+})
 
 
 

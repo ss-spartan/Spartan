@@ -21,17 +21,18 @@ module.exports = class DevCommand extends Command {
 
 	async run(message, client) {
 		const devembed = new Discord.MessageEmbed()
-            .setColor('#2f3136')
-            .setThumbnail(this.client.user.avatarURL())
-            .addFields(
-                {name: '❯ Spartan Developer <:spartan2:824723824502243409>',
-                value: stripIndents`
-                    • This bot is developed by <@275240603447721984>, if you have suggestions DM him.`,
-                inline: true}
-            )
-            .setTimestamp()
-            .setFooter("© Spartan")
-			
-		message.channel.send(devembed);
+		.setColor('#2f3136')
+		.setThumbnail(this.client.user.avatarURL())
+		.addFields(
+			{name: '❯ Spartan Developer <:spartan2:824723824502243409>',
+			value: stripIndents`
+				• This bot is developed by <@275240603447721984>, if you have suggestions DM him.`,
+			inline: true}
+		)
+		.addFields({name: "❯ The Prevail of Spartan", value:'**08/23/2020 12:51 PM**'})
+		.setTimestamp()
+		.setFooter("© Spartan")
+		 
+	message.channel.send(devembed);
 	}
 };

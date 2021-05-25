@@ -3,8 +3,6 @@ const oneLine = require('common-tags').oneLine;
 const Discord = require('discord.js')
 const db = require('quick.db')
 
-
-
 module.exports = class SnipeCommand extends commando.Command {
   constructor(client) {
     super(client, {
@@ -14,31 +12,24 @@ module.exports = class SnipeCommand extends commando.Command {
       memberName: 'snipe',
       description: 'Snipe the last deleted message.',
       guildOnly: true,
-      guarded: true,
-      throttling: {
-        usages: 3,
-        duration: 10
-    },
+      guarded: true
     });
   }
 
-
-  //eslint-disable-next-line class-methods-use-this
   async run(message, args, client) {
     try {
-      let msg = await db.get(`msg_${message.channel.id}`)
+      const msg = db.get(`msg_${message.channel.id}`)
       if (!msg) {
-          return message.channel.send(`There was nothing to snipe.`)
+        return message.channel.send(`There was nothing to snipe.`)
       }
-      let author = await db.get(`author_${message.channel.id}`)
-      let icon = message.guild.iconURL()
       let embed = new Discord.MessageEmbed()
-          .setAuthor(message.client.users.cache.get(author).tag, message.client.users.cache.get(author).displayAvatarURL({ dynamic: true}))
-          .setDescription(msg)
-          .setFooter(message.client.user.username, message.client.user.displayAvatarURL())
-          .setColor("#2f3136")
-      message.channel.send(embed)
-
+        .setAuthor(msg.author)
+        .setDescription(msg.content)
+        .setFooter(" sniped by" + ' ' + message.author.tag)
+        .setColor("#2f3136")
+        .setTimestamp(msg.time)
+        if (msg.image) embed.setImage(msg.image);
+      return message.channel.send(embed)
     } catch (e) {
       console.log(e)
     }

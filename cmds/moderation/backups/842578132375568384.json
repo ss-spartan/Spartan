@@ -1,0 +1,1312 @@
+{
+    "name": "hollow",
+    "region": "us-east",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "🖇",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "psa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🖇",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "boost",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🖇",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "ٴۢ",
+                                "avatar": "https://cdn.discordapp.com/avatars/782478843817623582/9317b9e940ab57d75b599969aae57e2d.webp",
+                                "content": "",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "ٴۢ",
+                                "avatar": "https://cdn.discordapp.com/avatars/782478843817623582/9317b9e940ab57d75b599969aae57e2d.webp",
+                                "content": "",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "ˌ",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "cmds",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "ˌ",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Spartan",
+                                "avatar": "https://cdn.discordapp.com/avatars/747075491298803762/5f4d52a4469de12616578b5a6d12f734.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "la's avatar.",
+                                        "type": "rich",
+                                        "description": null,
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 3092790,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": {
+                                            "url": "https://cdn.discordapp.com/avatars/802746245894242314/55de199744366e71427aebbe96322493.webp?size=4096",
+                                            "proxyURL": "https://images-ext-2.discordapp.net/external/yIjuO9jyoJ1xeG02VVkXNWJOgCPbIArxwvwLnoDrfuo/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/802746245894242314/55de199744366e71427aebbe96322493.webp",
+                                            "height": 256,
+                                            "width": 256
+                                        },
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "la",
+                                "avatar": "https://cdn.discordapp.com/avatars/802746245894242314/beadec28db747e6025594549f724d31b.webp",
+                                "content": ",avatar",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "la",
+                                "avatar": "https://cdn.discordapp.com/avatars/802746245894242314/beadec28db747e6025594549f724d31b.webp",
+                                "content": ",avatr",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Spartan",
+                                "avatar": "https://cdn.discordapp.com/avatars/747075491298803762/5f4d52a4469de12616578b5a6d12f734.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Who knows Kehlani?",
+                                        "type": "rich",
+                                        "description": null,
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 3092790,
+                                        "fields": [
+                                            {
+                                                "name": "21 plays ― 1 listener(s)",
+                                                "value": "``👑`` **[la#1234](https://last.fm/user/luheartsjackson)** — **21 plays**",
+                                                "inline": true
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Psst, if you find a bug do ,bugreport {message}"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "la",
+                                "avatar": "https://cdn.discordapp.com/avatars/802746245894242314/beadec28db747e6025594549f724d31b.webp",
+                                "content": ",wk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "icons",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "ˌ",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "ˌ",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "join to create",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "ˌ",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 1049600,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "tutorial",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "ˌ",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "ˌ",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "702",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "ˌ",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 3147264,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "810",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "ˌ",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 3147264,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "904",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "ˌ",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 1049600,
+                                "deny": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "verify",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "verify",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "verify",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "global",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "$",
+                                "avatar": "https://cdn.discordapp.com/avatars/839681532683354122/7b1315ff3005617ba2cf34dc259f5a24.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": null,
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 3749436,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": {
+                                            "url": "https://media.discordapp.net/attachments/798310034538889277/836291809134510131/image3.jpg?width=431&height=432",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/wGdYrCKuaQn0ZoRtzUtQb0tPfO9ECE10FgQD1Vvsu98/%3Fwidth%3D431%26height%3D432/https/media.discordapp.net/attachments/798310034538889277/836291809134510131/image3.jpg",
+                                            "height": 432,
+                                            "width": 431
+                                        },
+                                        "author": null,
+                                        "footer": null
+                                    },
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "react to the  <:sshhh1:839682221429358632> to gain access to channels",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 3749436,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "verify",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "**<@!742808555148541997> was given the `global` role**",
+                                        "url": null,
+                                        "timestamp": "2021-05-14T01:41:48.703Z",
+                                        "color": 3375061,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "ٴٴٴٴ#1771",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/742808555148541997/fa2fc287ebedf9604e4cb2a6f086f8d2.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "ID: 742808555148541997"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "<@!742808555148541997> ٴٴٴٴ#1771",
+                                        "url": null,
+                                        "timestamp": "2021-05-14T01:41:44.809Z",
+                                        "color": 4437377,
+                                        "fields": [
+                                            {
+                                                "name": "Account Age",
+                                                "value": "9 months, 1 days",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": {
+                                            "url": "https://cdn.discordapp.com/avatars/742808555148541997/fa2fc287ebedf9604e4cb2a6f086f8d2.png?size=128",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/f9MGOjUmNOOTPaCORza5aplin2A0WCKNcZtkJXvDbKI/%3Fsize%3D128/https/cdn.discordapp.com/avatars/742808555148541997/fa2fc287ebedf9604e4cb2a6f086f8d2.png",
+                                            "height": 128,
+                                            "width": 128
+                                        },
+                                        "image": null,
+                                        "author": {
+                                            "name": "Member Joined",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/742808555148541997/fa2fc287ebedf9604e4cb2a6f086f8d2.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "ID: 742808555148541997"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "**Message sent by <@336000384852033538> deleted in <#839979985971839007>**",
+                                        "url": null,
+                                        "timestamp": "2021-05-14T00:51:36.493Z",
+                                        "color": 16729871,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "ٴٴٴ#3737",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/336000384852033538/9b2c204abb3762d9b827815a8d37e7de.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "Author: 336000384852033538 | Message ID: 842564531635879966"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "**Channel Created: #invites**",
+                                        "url": null,
+                                        "timestamp": "2021-05-13T23:22:19.303Z",
+                                        "color": 4437377,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "hollow",
+                                            "icon_url": "https://cdn.discordapp.com/icons/834527354659405835/c1fc62851199783922e363f60d2d5267.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "ID: 842542305155219497"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "**<@!653741179078180864> was given the `global` role**",
+                                        "url": null,
+                                        "timestamp": "2021-05-13T23:18:55.688Z",
+                                        "color": 3375061,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "fear#0277",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/653741179078180864/78517bcdd876633ad956f16526be8b50.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "ID: 653741179078180864"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "<@!653741179078180864> fear#0277",
+                                        "url": null,
+                                        "timestamp": "2021-05-13T23:18:49.464Z",
+                                        "color": 4437377,
+                                        "fields": [
+                                            {
+                                                "name": "Account Age",
+                                                "value": "1 years, 5 months, 3 days",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": {
+                                            "url": "https://cdn.discordapp.com/avatars/653741179078180864/78517bcdd876633ad956f16526be8b50.png?size=128",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/jv8rJJWIMjc0vry5PCReqV5d43Bo0xiQYJoXXS1uIKc/%3Fsize%3D128/https/cdn.discordapp.com/avatars/653741179078180864/78517bcdd876633ad956f16526be8b50.png",
+                                            "height": 128,
+                                            "width": 128
+                                        },
+                                        "image": null,
+                                        "author": {
+                                            "name": "Member Joined",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/653741179078180864/78517bcdd876633ad956f16526be8b50.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "ID: 653741179078180864"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "**<@!488165904224354334> was given the `global` role**",
+                                        "url": null,
+                                        "timestamp": "2021-05-13T23:16:51.906Z",
+                                        "color": 3375061,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "di#0207",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/488165904224354334/70bbad9f210cc28c3421694a1606358e.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "ID: 488165904224354334"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "<@!488165904224354334> di#0207",
+                                        "url": null,
+                                        "timestamp": "2021-05-13T23:16:48.304Z",
+                                        "color": 4437377,
+                                        "fields": [
+                                            {
+                                                "name": "Account Age",
+                                                "value": "2 years, 8 months, 3 days",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": {
+                                            "url": "https://cdn.discordapp.com/avatars/488165904224354334/70bbad9f210cc28c3421694a1606358e.png?size=128",
+                                            "proxyURL": "https://images-ext-2.discordapp.net/external/wSRqY70VHIpJxUZGJ6oovfff4xr2yBWoil_mMabDZtg/%3Fsize%3D128/https/cdn.discordapp.com/avatars/488165904224354334/70bbad9f210cc28c3421694a1606358e.png",
+                                            "height": 128,
+                                            "width": 128
+                                        },
+                                        "image": null,
+                                        "author": {
+                                            "name": "Member Joined",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/488165904224354334/70bbad9f210cc28c3421694a1606358e.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "ID: 488165904224354334"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "**Message sent by <@336000384852033538> deleted in <#839979985971839007>**\n:FallGuyRun:",
+                                        "url": null,
+                                        "timestamp": "2021-05-13T19:15:41.549Z",
+                                        "color": 16729871,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "ٴٴٴ#3737",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/336000384852033538/9b2c204abb3762d9b827815a8d37e7de.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "Author: 336000384852033538 | Message ID: 842476997254053948"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Dyno",
+                                "avatar": "https://cdn.discordapp.com/avatars/839716269199851580/a06062af9b11085ab715e340deaab267.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "**Message sent by <@336000384852033538> deleted in <#839979985971839007>**\n:FallGuyRun: :FallGuyRun:",
+                                        "url": null,
+                                        "timestamp": "2021-05-13T19:15:39.071Z",
+                                        "color": 16729871,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "ٴٴٴ#3737",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/336000384852033538/9b2c204abb3762d9b827815a8d37e7de.png?size=128"
+                                        },
+                                        "footer": {
+                                            "text": "Author: 336000384852033538 | Message ID: 842477001550200832"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "invites",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "verify",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "voice",
+                "name": "nights in da bando",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    },
+                    {
+                        "roleName": "global",
+                        "allow": 0,
+                        "deny": 1049600
+                    },
+                    {
+                        "roleName": "vc",
+                        "allow": 36701696,
+                        "deny": 0
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "name": "chat",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2112,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "global",
+                        "allow": 3073,
+                        "deny": 0
+                    }
+                ],
+                "messages": [
+                    {
+                        "username": "ٴۢ",
+                        "avatar": "https://cdn.discordapp.com/avatars/782478843817623582/9317b9e940ab57d75b599969aae57e2d.webp",
+                        "content": ",backup-create",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Mimu",
+                        "avatar": "https://cdn.discordapp.com/avatars/493716749342998541/bc99fe66183b5a1702946f9a51f0f306.webp",
+                        "content": "wsg nigga <:heyy:839674058181574656> @​ٴٴٴٴ",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "ٴۢ",
+                        "avatar": "https://cdn.discordapp.com/avatars/782478843817623582/9317b9e940ab57d75b599969aae57e2d.webp",
+                        "content": "LMFAOOOOO same head shape too",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "ٴٴٴ",
+                        "avatar": "https://cdn.discordapp.com/avatars/336000384852033538/9b2c204abb3762d9b827815a8d37e7de.webp",
+                        "content": "NO",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "ٴۢ",
+                        "avatar": "https://cdn.discordapp.com/avatars/782478843817623582/9317b9e940ab57d75b599969aae57e2d.webp",
+                        "content": "same glasses n allat",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "ٴۢ",
+                        "avatar": "https://cdn.discordapp.com/avatars/782478843817623582/9317b9e940ab57d75b599969aae57e2d.webp",
+                        "content": "@​di she look like eva ri",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "ٴٴٴ",
+                        "avatar": "https://cdn.discordapp.com/avatars/336000384852033538/9b2c204abb3762d9b827815a8d37e7de.webp",
+                        "content": "she look nothing like me",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "ٴۢ",
+                        "avatar": "https://cdn.discordapp.com/avatars/782478843817623582/9317b9e940ab57d75b599969aae57e2d.webp",
+                        "content": "nigga it’s 9:32 🤨",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "ٴٴٴ",
+                        "avatar": "https://cdn.discordapp.com/avatars/336000384852033538/9b2c204abb3762d9b827815a8d37e7de.webp",
+                        "content": "Go to sleep bitch",
+                        "embeds": [],
+                        "files": [],
+                        "pinned": false
+                    },
+                    {
+                        "username": "ٴۢ",
+                        "avatar": "https://cdn.discordapp.com/avatars/782478843817623582/9317b9e940ab57d75b599969aae57e2d.webp",
+                        "content": "why i thought that was u @​ٴٴٴ",
+                        "embeds": [],
+                        "files": [
+                            {
+                                "name": "video0.mp4",
+                                "attachment": "https://cdn.discordapp.com/attachments/839979985971839007/842574968901861422/video0.mp4"
+                            }
+                        ],
+                        "pinned": false
+                    }
+                ],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "i run this",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": 2146959359,
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "council",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "/",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 2146959359,
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "————",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "authority",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "//",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "bots",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "————",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "klique",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "outkast",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "movin tact",
+            "color": "#0c0c0c",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "————",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "————",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "————",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "global",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "pic",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 32768,
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "vc",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [
+        {
+            "name": "heyy",
+            "url": "https://cdn.discordapp.com/emojis/839674058181574656.png"
+        },
+        {
+            "name": "sshhh1",
+            "url": "https://cdn.discordapp.com/emojis/839682221429358632.png"
+        },
+        {
+            "name": "pocoyowhat",
+            "url": "https://cdn.discordapp.com/emojis/839840469160820766.gif"
+        },
+        {
+            "name": "shy",
+            "url": "https://cdn.discordapp.com/emojis/841295930837565462.gif"
+        },
+        {
+            "name": "huffy",
+            "url": "https://cdn.discordapp.com/emojis/841296220113993768.gif"
+        },
+        {
+            "name": "smoked",
+            "url": "https://cdn.discordapp.com/emojis/841296287907315772.gif"
+        },
+        {
+            "name": "cappin",
+            "url": "https://cdn.discordapp.com/emojis/841296463983935499.png"
+        },
+        {
+            "name": "giayes",
+            "url": "https://cdn.discordapp.com/emojis/841296563203735583.gif"
+        },
+        {
+            "name": "YIKES",
+            "url": "https://cdn.discordapp.com/emojis/841296711527170099.gif"
+        },
+        {
+            "name": "yikesbruh",
+            "url": "https://cdn.discordapp.com/emojis/841296742388990022.gif"
+        },
+        {
+            "name": "pepethinking",
+            "url": "https://cdn.discordapp.com/emojis/841296783388311613.gif"
+        },
+        {
+            "name": "pepecrossedarms",
+            "url": "https://cdn.discordapp.com/emojis/841296828296724511.png"
+        },
+        {
+            "name": "skypeblahblahblah",
+            "url": "https://cdn.discordapp.com/emojis/841296884068122636.gif"
+        },
+        {
+            "name": "doglook",
+            "url": "https://cdn.discordapp.com/emojis/841296944097525810.gif"
+        },
+        {
+            "name": "blahblah",
+            "url": "https://cdn.discordapp.com/emojis/841297061017288724.gif"
+        },
+        {
+            "name": "pepereverse",
+            "url": "https://cdn.discordapp.com/emojis/841297131359830047.png"
+        },
+        {
+            "name": "selfie",
+            "url": "https://cdn.discordapp.com/emojis/841297288654618654.png"
+        },
+        {
+            "name": "peek",
+            "url": "https://cdn.discordapp.com/emojis/841297370499252246.png"
+        },
+        {
+            "name": "confused",
+            "url": "https://cdn.discordapp.com/emojis/842298955748343838.png"
+        },
+        {
+            "name": "eyeroll",
+            "url": "https://cdn.discordapp.com/emojis/842299167867011082.gif"
+        },
+        {
+            "name": "patpatpatpat",
+            "url": "https://cdn.discordapp.com/emojis/842299339338022912.gif"
+        },
+        {
+            "name": "licky",
+            "url": "https://cdn.discordapp.com/emojis/842299477657649192.png"
+        },
+        {
+            "name": "deadcappin",
+            "url": "https://cdn.discordapp.com/emojis/842299612920545280.png"
+        },
+        {
+            "name": "unfunny",
+            "url": "https://cdn.discordapp.com/emojis/842299692851527701.gif"
+        },
+        {
+            "name": "hugs",
+            "url": "https://cdn.discordapp.com/emojis/842299770201440276.png"
+        },
+        {
+            "name": "pepelol",
+            "url": "https://cdn.discordapp.com/emojis/842300099995369492.gif"
+        },
+        {
+            "name": "pepewtfusay",
+            "url": "https://cdn.discordapp.com/emojis/842300151984029696.png"
+        },
+        {
+            "name": "pepeevil",
+            "url": "https://cdn.discordapp.com/emojis/842300206003126292.png"
+        },
+        {
+            "name": "punch",
+            "url": "https://cdn.discordapp.com/emojis/842300266958159872.gif"
+        },
+        {
+            "name": "head",
+            "url": "https://cdn.discordapp.com/emojis/842300410671923201.gif"
+        },
+        {
+            "name": "lost",
+            "url": "https://cdn.discordapp.com/emojis/842300497343021067.png"
+        },
+        {
+            "name": "aslipt",
+            "url": "https://cdn.discordapp.com/emojis/842300663777460234.gif"
+        },
+        {
+            "name": "alebronturnt",
+            "url": "https://cdn.discordapp.com/emojis/842300979599900702.gif"
+        },
+        {
+            "name": "avibe",
+            "url": "https://cdn.discordapp.com/emojis/842301130573611029.gif"
+        },
+        {
+            "name": "783511822346354730",
+            "url": "https://cdn.discordapp.com/emojis/842301313496907786.gif"
+        },
+        {
+            "name": "783511801337217074",
+            "url": "https://cdn.discordapp.com/emojis/842301344923910145.gif"
+        },
+        {
+            "name": "abong",
+            "url": "https://cdn.discordapp.com/emojis/842301389313015819.gif"
+        },
+        {
+            "name": "word",
+            "url": "https://cdn.discordapp.com/emojis/842301418916544553.png"
+        },
+        {
+            "name": "1yosef",
+            "url": "https://cdn.discordapp.com/emojis/842301616018423821.gif"
+        },
+        {
+            "name": "7wow",
+            "url": "https://cdn.discordapp.com/emojis/842301803248877578.gif"
+        },
+        {
+            "name": "coolnigga",
+            "url": "https://cdn.discordapp.com/emojis/842302123856494642.png"
+        },
+        {
+            "name": "seizure",
+            "url": "https://cdn.discordapp.com/emojis/842302200432951316.gif"
+        },
+        {
+            "name": "mochamad",
+            "url": "https://cdn.discordapp.com/emojis/842302236733210634.gif"
+        },
+        {
+            "name": "catkiss",
+            "url": "https://cdn.discordapp.com/emojis/842302307613147168.gif"
+        },
+        {
+            "name": "mochakissattack",
+            "url": "https://cdn.discordapp.com/emojis/842302374214369300.gif"
+        },
+        {
+            "name": "weeee",
+            "url": "https://cdn.discordapp.com/emojis/842302435535486996.gif"
+        },
+        {
+            "name": "kiss",
+            "url": "https://cdn.discordapp.com/emojis/842303294520164373.png"
+        },
+        {
+            "name": "lipbite",
+            "url": "https://cdn.discordapp.com/emojis/842304692121108501.gif"
+        },
+        {
+            "name": "5ye_rofl",
+            "url": "https://cdn.discordapp.com/emojis/842304778750132244.gif"
+        },
+        {
+            "name": "4yy_vibin",
+            "url": "https://cdn.discordapp.com/emojis/842304823918854155.gif"
+        },
+        {
+            "name": "01_talkingtoawall",
+            "url": "https://cdn.discordapp.com/emojis/842304950004613120.gif"
+        },
+        {
+            "name": "01_smoking",
+            "url": "https://cdn.discordapp.com/emojis/842304977925177366.gif"
+        },
+        {
+            "name": "crush_wow",
+            "url": "https://cdn.discordapp.com/emojis/842305659688845312.gif"
+        },
+        {
+            "name": "crush_wait",
+            "url": "https://cdn.discordapp.com/emojis/842305695390892042.gif"
+        },
+        {
+            "name": "3yy_eatingg1",
+            "url": "https://cdn.discordapp.com/emojis/842306478386708491.gif"
+        },
+        {
+            "name": "mochashock",
+            "url": "https://cdn.discordapp.com/emojis/842383417797640214.gif"
+        },
+        {
+            "name": "9eiffeltower",
+            "url": "https://cdn.discordapp.com/emojis/842383663450423316.gif"
+        },
+        {
+            "name": "youdied",
+            "url": "https://cdn.discordapp.com/emojis/842383721419636736.gif"
+        },
+        {
+            "name": "vibe",
+            "url": "https://cdn.discordapp.com/emojis/842385206534864906.gif"
+        },
+        {
+            "name": "heart",
+            "url": "https://cdn.discordapp.com/emojis/842385300290273280.png"
+        },
+        {
+            "name": "king",
+            "url": "https://cdn.discordapp.com/emojis/842385331881246781.png"
+        },
+        {
+            "name": "pepeboner",
+            "url": "https://cdn.discordapp.com/emojis/842385372943089714.gif"
+        },
+        {
+            "name": "CheekRub",
+            "url": "https://cdn.discordapp.com/emojis/842421951364333628.gif"
+        }
+    ],
+    "createdTimestamp": 1620956681103,
+    "guildID": "834527354659405835",
+    "id": "842578132375568384",
+    "iconURL": "https://cdn.discordapp.com/icons/834527354659405835/c1fc62851199783922e363f60d2d5267.webp"
+}
