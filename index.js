@@ -254,7 +254,7 @@ client.registry
     ['music', 'Music Commands'],
     ['dev', 'Developer Commands']
   ])
-  .registerDefaultCommands({
+  .registerDefaults({
     unknownCommand: false,
   })
   .registerCommandsIn(path.join(__dirname, 'cmds'))
