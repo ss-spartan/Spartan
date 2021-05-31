@@ -52,7 +52,7 @@ module.exports = class KickCommand extends Command {
       })
       .catch(e => {
         message.say(
-          'Something went wrong when trying to kick this user, I probably do not have the permission to kick him'
+          'Something went wrong when trying to kick this user, I probably do not have the permission to kick them.'
         );
         return console.error(e);
       });

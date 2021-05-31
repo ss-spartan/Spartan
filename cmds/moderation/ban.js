@@ -34,10 +34,7 @@ module.exports = class BanCommand extends Command {
         });
     }
 
-    run(message, {
-        userToBan,
-        reason
-    }) {
+    run(message, {userToBan,reason}) {
         let user =
             message.mentions.members.first();
         message.guild.members.fetch(userToBan);

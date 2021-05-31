@@ -209,7 +209,6 @@ client.on('guildCreate', function (guild, message) {
     .setDescription(`**Owner:** <@${guild.ownerID}>`)
     .addField('❯\u2000\Information', `•\u2000\**ID:** ${guild.id}**\n\•\u2000\**Created:** ${moment(guild.createdAt).format('MMMM Do YYYY')} \`(${fromNow(guild.createdAt)})\`\n\•\u2000\**Region:** ${guild.region}\n\u2000\**`)
     .addField('❯\u2000\Quantitative Statistics', `•\u2000\**Channels** [${guild.channels.cache.size}]: ${textChannels.size} text - ${voiceChannels.size} voice\n\•\u2000\**Members** [${guild.memberCount}]: ${online} online - ${bots} bots\n\•\u2000\**Roles:** ${guild.roles.cache.size}`, true)
-    .addField('❯\u2000\Miscellaneous', `•\u2000\**Emojis:** ${guild.emojis.cache.size}`, true)
     .setTimestamp()
     .setFooter(`(${client.guilds.cache.size})`);
   return channel.send({
@@ -233,7 +232,6 @@ client.on('guildDelete', function (guild, message) {
     .setDescription(`Server infomation for **${guild.name}** || **Owner:** <@${guild.ownerID}>`)
     .addField('❯\u2000\Information', `•\u2000\**ID:** ${guild.id}**\n\•\u2000\**Created:** ${moment(guild.createdAt).format('MMMM Do YYYY')} \`(${fromNow(guild.createdAt)})\`\n\•\u2000\**Region:** ${guild.region}\n\u2000\**`)
     .addField('❯\u2000\Quantitative Statistics', `•\u2000\**Channels** [${guild.channels.cache.size}]: ${textChannels.size} text - ${voiceChannels.size} voice\n\•\u2000\**Members** [${guild.memberCount}]: ${online} online - ${bots} bots\n\•\u2000\**Roles:** ${guild.roles.cache.size}`, true)
-    .addField('❯\u2000\Miscellaneous', `•\u2000\**Emojis:** ${guild.emojis.cache.size}`, true)
     .setTimestamp()
     .setFooter(`(${client.guilds.cache.size})`);
   return channel.send({
