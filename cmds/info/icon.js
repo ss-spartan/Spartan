@@ -32,7 +32,7 @@ module.exports = class IconCommand extends Commando.Command {
 
     const embed = new MessageEmbed()
       .setColor('#2f3136')
-      .setTitle(`Server icon of ${message.guild.name}`)
+      .setDescription(`**[${message.guild.name} icon](${icon})**`)
       .setImage(icon);
     message.channel.send({ embed });
 

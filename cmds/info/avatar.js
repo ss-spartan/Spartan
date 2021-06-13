@@ -28,7 +28,7 @@ module.exports = class AvatarCommand extends Commando.Command {
             if (args[0]) {
                 message.channel.send({
                     embed: {
-                        title: `${member.user.username}'s avatar.`,
+                        description: `**[${member.user.username}'s avatar.](${member.user.displayAvatarURL({ dynamic: true })}?size=4096)**`,
                         color: '#2f3136',
                         image: {
                             url: `${member.user.displayAvatarURL({ dynamic: true })}?size=4096`
@@ -38,7 +38,7 @@ module.exports = class AvatarCommand extends Commando.Command {
             } else {
                 message.channel.send({
                     embed: {
-                        title: `${message.author.username}'s avatar.`,
+                        description: `**[${message.author.username}'s avatar.](${message.author.displayAvatarURL({ dynamic: true })}?size=4096)**`,
                         color: '#2f3136',
                         image: {
                             url: `${message.author.displayAvatarURL({ dynamic: true })}?size=4096`

@@ -1,87 +1,103 @@
-const moment = require('moment');
-const {
-    MessageEmbed
-} = require('discord.js');
-const flags = {
-    DISCORD_EMPLOYEE: 'Discord Employee <:DiscordStaff:827295446400630873>',
-    DISCORD_PARTNER: 'Discord Partner <:PartneredServer:827295513212354640>',
-    BUGHUNTER_LEVEL_1: 'Bug Hunter <:BugHunter:827295705256296528>',
-    HYPESQUAD_EVENTS: 'HypeSquad Events <:HypeSquad:827295594288119899>',
-    HOUSE_BRAVERY: 'House of Bravery <:Bravery:827296898205351936>',
-    HOUSE_BRILLIANCE: 'House of Brilliance <:Brilliance:827296943700967474>',
-    HOUSE_BALANCE: 'House of Balance <:Balance:827296974930706522>',
-    EARLY_SUPPORTER: 'Early Supporter <:EarlySupporter:827295815198048276>', //711610615348723721
-    TEAM_USER: 'Team User',
-    SYSTEM: 'System',
-    VERIFIED_BOT: 'Verified Bot',
-    VERIFIED_DEVELOPER: 'Verified Bot Developer <:VerifiedBotDev:827295861339848744>',
-    NITROSUBSCRIPTION: '<:nitrosubscription:829711496917155840>'
-};
-const {
-    Command
-} = require('discord.js-commando')
-const chalk = require("chalk")
-module.exports = class UserCommand extends Command {
+const Commando = require("discord.js-commando")
+const Discord = require("discord.js");
+const moment = require("moment");
+require("moment-duration-format");
+
+
+module.exports = class TestCommand extends Commando.Command {
     constructor(client) {
         super(client, {
-            name: 'user',
-            aliases: ['user-info', 'whois', 'member-info'],
-            group: 'info',
-            memberName: 'user',
-            description: 'Responds with detailed information on a user.',
-            hidden: false,
-            guildOnly: true,
-            clientPermissions: ['EMBED_LINKS'],
-            args: [{
-                key: 'user',
-                prompt: 'Write the name or tag user would you like to get information ?',
-                type: 'user',
-                default: msg => msg.author,
-            }, ],
-            throttling: {
-                usages: 3,
-                duration: 10
-            },
-        });
-    }
+                name: 'user',
+                group: 'info',
+                memberName: 'userinfo',
+                description: 'Shows info on a user.',
+                argsType: 'multiple',
+                aliases:["whois", "ui"],
+                clientPermissions: ["EMBED_LINKS"],
+            userPermissions: ['SEND_MESSAGES'],
+            });
+        };
 
-    async run(msg, {
-        user
-    }) {
-        try {
-            const game = await msg.guild.members.fetch(user.id);
-            const userFlags = user.flags.toArray();
-            const embed = new MessageEmbed()
-                .setTitle(user.tag)
-                .setThumbnail(user.displayAvatarURL({
-                    format: 'png',
-                    dynamic: true,
-                    size: 2048
-                }))
-                .addField('**↣ General Info ↢**', `**• ID:** ${user.id}\n**• Discord Join Date:** ${moment.utc(user.createdAt).format('MM/DD/YYYY h:mm A')}\n**• Flags:** ${userFlags.length ? userFlags.map(flag => flags[flag]).join(', ') : 'None'}`);
-            if (msg.guild) {
-
-                try {
-
-                    const member = await msg.guild.members.fetch(user.id);
-                    const defaultRole = msg.guild.roles.cache.get(msg.guild.id);
-                    const roles = member.roles.cache
-                        .filter(role => role.id !== defaultRole.id)
-                        .sort((a, b) => b.position - a.position)
-                        .map(role => role.name);
-                    embed
-                        .addField('**↣ Server Member Info ↢**', `**• Nickname:** ${member.nickname ? member.nickname : 'No nickname'}\n**• Server Join Date:** ${moment.utc(member.joinedAt).format('MM/DD/YYYY h:mm A')}\n**• Highest Role:** ${member.roles.highest.id === defaultRole.id ? 'None' : member.roles.highest.name}\n**• Hoist Role:** ${member.roles.hoist ? member.roles.hoist.name : 'None'}  `)
-                        .setDescription(`**Roles**  ${member.roles.cache.map(roles => `<@&${roles.id}>`).join(', ')}`)
-                        .setFooter(`Req by : ${msg.author.tag}`)
-                        .setTimestamp()
-                        .setColor("#2f3136");
-                } catch {
-                    embed.setFooter('Failed to resolve member, showing basic user information instead.');
+            async run(message,args, client) {
+                const permissions = {
+                    "ADMINISTRATOR": "Administrator",
+                    "MANAGE_GUILD": "Manage Server",
+                    "MANAGE_ROLES": "Manage Roles",
+                    "MANAGE_CHANNELS": "Manage Channels",
+                    "KICK_MEMBERS": "Kick Members",
+                    "BAN_MEMBERS": "Ban Members",
+                    "MANAGE_NICKNAMES": "Manage Nicknames",
+                    "MANAGE_EMOJIS": "Manage Emojis",
+                    "MANAGE_WEBHOOKS": "Manage Webhooks",
+                    "MANAGE_MESSAGES": "Manage Messages",
+                    "MENTION_EVERYONE": "Mention Everyone"
                 }
+                const mention = message.mentions.members.first() || message.member;
+                const nick = mention.nickname === null ? "None" : mention.nickname;
+                const roles = mention.roles.cache.get === "" ? "None" : mention.roles.cache.get;
+                const usericon = mention.user.avatarURL;
+                const act = mention.user.presence.status.toUpperCase();
+                const game = mention.user.presence.game || "None";
+                const mentionPermissions = mention.permissions.toArray() === null ? "None" : mention.permissions.toArray();
+                const finalPermissions = [];
+                for (const permission in permissions) {
+                    if (mentionPermissions.includes(permission)) finalPermissions.push(`${permissions[permission]}`);
+                    else;
+                }
+                var flags = {
+                    "": "None",
+                    "DISCORD_EMPLOYEE": "Discord Employee",
+                    "DISCORD_PARTNER": "Discord Partner",
+                    "BUGHUNTER_LEVEL_1": "Bug Hunter (Level 1)",
+                    "BUGHUNTER_LEVEL_2": "Bug Hunter (Level 2)",
+                    "HYPESQUAD_EVENTS": "Hypesquad Events",
+                    "HOUSE_BRILLIANCE": "HypeSquad Brilliance",
+                    "HOUSE_BRAVERY": "HypeSquad Bravery",
+                    "HOUSE_BALANCE": "HypeSquad Balance",
+                    "EARLY_SUPPORTER": "Early Supporter",
+                    "TEAM_USER": "Team User",
+                    "VERIFIED_BOT": "Verified Bot",
+                    "VERIFIED_DEVELOPER": "Verified Bot Developer"
+                };
+                var bot = {
+                    "true": "It's a bot.",
+                    "false": "They are human."
+                };
+                const activities = [];
+                let customStatus;
+                for (const activity of mention.presence.activities.values()) {
+                  switch (activity.type) {
+                    case 'PLAYING':
+                      activities.push(`🎮 playing **${activity.name}**`);
+                      break;
+                    case 'LISTENING':
+                      if (mention.user.bot) activities.push(`Listening to **${activity.name}**`);
+                      else activities.push(`<:Spotify:827329683946995813> listening to **${activity.details}** by **${activity.state}**`);
+                      break;
+                    case 'WATCHING':
+                      activities.push(`Watching **${activity.name}**`);
+                      break;
+                    case 'STREAMING':
+                      activities.push(`Streaming **${activity.name}**`);
+                      break;
+                    case 'CUSTOM_STATUS':
+                      customStatus = `**${activity.emoji || "💬"}  ${activity.state}** `
+                      break;
+                  }
+                }
+                const userlol = new Discord.MessageEmbed()
+                .setAuthor(`User:`, mention.user.avatarURL())
+                .setThumbnail(usericon)
+                .addField(`〉General Info`, `° **Name:** \`${mention.user.username}\` \n• **Tag:** \`${mention.user.discriminator}\` \n° **Nickname:** \`${nick}\``)
+                .addField(`〉Overview`, `° **Badges:** \`${flags[mention.user.flags.toArray().join(", ")]}\` \n• **Status:** \`${act}\`\n° **Is Bot:** \`${bot[mention.user.bot]}\``)
+                .addField(`〉Server Relating Info`, `° **Roles:** ${mention.roles.cache.filter(r => r.id !== message.guild.id).map(r => r).join(", ")}\n° **Key Permissions:** \`${finalPermissions.join(', ') || "None"}\``)
+                .addField(`〉Misc Info`, `**Account created on:** \n\`${moment(mention.user.createdAt).format("dddd, MMMM Do YYYY, h:mm:ss A")}\` \n**Joined this server on:** \n\`${moment(mention.joinedAt).format("dddd, MMMM Do YYYY, h:mm:ss A")}\``)
+                .setThumbnail(mention.user.avatarURL())
+                .setFooter(`ID: ${mention.user.id}`, mention.user.avatarURL())
+                .setTimestamp()
+                .setColor("#FFFEFE")
+                if (activities.length > 0) userlol.setDescription('\u200b' + activities.join('\n'));
+                if (customStatus) userlol.spliceFields(0, 0, { name: `custom status; \n${customStatus}`, value: "⠀"});
+                message.channel.send(userlol)
             }
-            return msg.embed(embed);
-        } catch (e) {
-            msg.reply(`Oh no... \`${e}\``);
         }
-    }
-};
