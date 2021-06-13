@@ -1,5 +1,5 @@
 const { Command } = require('discord.js-commando');
-const chalk = require('chalk')
+const {MessageEmbed} = require("discord.js")
 module.exports = class LoopQueueCommand extends Command {
   constructor(client) {
     super(client, {
@@ -29,39 +29,39 @@ module.exports = class LoopQueueCommand extends Command {
   run(message) {
 
     if (!message.guild.musicData.isPlaying) {
-      message.say(':x: There is no song playing right now!');
+      message.channel.send(new MessageEmbed().setDescription(`> :x: ${message.author}, There is no song playing right now!`).setColor("RED"))
       return;
     } else if (
       message.guild.musicData.isPlaying &&
       message.guild.triviaData.isTriviaRunning
     ) {
-      message.say(':x: You cannot loop over a trivia!');
+      message.channel.send(new MessageEmbed().setDescription(`> :x: ${message.author}, You cannot loop over a trivia!`).setColor("RED"))
       return;
     } else if (
       message.member.voice.channel.id !== message.guild.me.voice.channel.id
     ) {
-      message.reply(
-        `:no_entry: You must be in the same voice channel as the bot's in order to use that!`
-      );
+      message.channel.send(new MessageEmbed().setDescription(`>
+        :no_entry: ${message.author} You must be in the same voice channel as Spartan in order to use that!`
+      ).setColor("RED"))
       return;
     } else if (message.guild.musicData.queue.length == 0) {
-      message.say(`:x: I can't loop over an empty queue!`);
+      message.channel.send(new MessageEmbed().setDescription(`> <:spartanWarning:839194405049991168> I can't loop over an empty queue!`).setColor("YELLOW"))
       return;
     } else if (message.guild.musicData.loopSong) {
-      message.reply(
-        ':x: Turn off the **loop** command before using the **loopqueue** command'
-      );
+      message.channel.send(new MessageEmbed().setDescription(`> <:spartanWarning:839194405049991168>
+         Turn off the **loop** command before using the **loopqueue** command`
+      ).setColor("YELLOW"))
       return;
     }
 
     if (message.guild.musicData.loopQueue) {
       message.guild.musicData.loopQueue = false;
-      message.channel.send(
-        ':repeat: The queue is no longer playing on **loop**'
-      );
+      message.channel.send(new MessageEmbed().setDescription(`>
+        :repeat: The queue is no longer playing on **loop**`
+      ).setColor("BLUE"))
     } else {
       message.guild.musicData.loopQueue = true;
-      message.channel.send(':repeat: The queue is now playing on **loop**');
+      message.channel.send(new MessageEmbed().setDescription(`> :repeat: The queue is now playing on **loop**`).setColor("BLUE"))
     }
   }
 };

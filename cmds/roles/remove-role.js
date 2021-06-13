@@ -31,9 +31,10 @@ module.exports = class removeRoleCommand extends Command {
     }
     run(msg, { user, role }) {
 
-        if(!msg.member.hasPermission("MANAGE_ROLES")) return msg.say("You don't have permission for this command.")
+        if(!msg.member.hasPermission("MANAGE_ROLES")) return msg.say("> <:Spartan:824723825597480978> You don't have permission for this command.")
         msg.guild.member(user).roles.remove(role)
-        msg.say('**removed** ' + role.name + ' **from** ' + user.tag)
+        msg.say(`> <:Spartan:824723825597480978> removed **${role.id}** from <@${user.id}>`)
+        msg.delete({timeout:10000})
  
     
     }

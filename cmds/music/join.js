@@ -1,5 +1,6 @@
 const { Command } = require('discord.js-commando');
 const chalk = require('chalk')
+const {MessageEmbed} = require("discord.js")
 module.exports = class JoinCommand extends Command {
   constructor(client) {
     super(client, {
@@ -8,7 +9,6 @@ module.exports = class JoinCommand extends Command {
       aliases: ['summon'],
       group: 'music',
       guildOnly: true,
-      clientPermissions: ['SPEAK', 'CONNECT'],
       userPermissions: ['SPEAK', 'CONNECT'],
       description:
         'Allows an Admin to summon the bot to your voice-channel when music is playing.',
@@ -23,22 +23,21 @@ module.exports = class JoinCommand extends Command {
 
     const voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
-      message.reply(':no_entry: Please join a voice channel and try again!');
+      message.channel.send(new  MessageEmbed().setDescription(`:no_entry: ${message.author}, Please join a voice channel and try again!`).setColor("RED"));
       return;
     }
     if (message.guild.triviaData.isTriviaRunning == true) {
-      message.reply(':x: Please try after the trivia has ended!');
+      message.channel.send(new MessageEmbed().setDescription(`:x: ${message.author}, Please try after the trivia has ended!`).setColor("RED"))
       return;
     }
-    if (message.guild.musicData.isPlaying != true) {
-      message.reply(':x: Nothing is Playing');
-      return;
+    if(message.client.voice.channel == true){
+      message.channel.send("Im already in a voice channel. Sorry.")
     }
     try {
       await voiceChannel.join();
       return;
     } catch {
-      message.reply(':x Something went wrong when moving channels');
+      message.channel.send(new MessageEmbed().setDescription(`:x ${message.author} Something went wrong when moving channels.`).setColor("RED"))
       return;
     }
   }

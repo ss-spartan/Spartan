@@ -31,9 +31,10 @@ module.exports = class GiveRoleCommand extends Command {
         })
     }
     run(msg, { user, role }) {
-        if(!msg.member.hasPermission("MANAGE_ROLES")) return msg.say("You don't have permission for this command.")
+        if(!msg.member.hasPermission("MANAGE_ROLES")) return msg.say("> <:Spartan:824723825597480978> You don't have permission for this command.")
         msg.guild.member(user).roles.add(role)
-        msg.say('**added** ' + role.name + ' **to** ' + user.tag)
+        msg.say(`> <:Spartan:824723825597480978> added **${role.name}** to <@${user.id}>`)
+        msg.delete({timeout:10000})
         
     
     }

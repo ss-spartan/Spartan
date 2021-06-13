@@ -7,7 +7,6 @@ module.exports = class MassAddCommand extends Command {
             guildOnly: true,
             aliases: ['ma', 'addroleall', 'roleall'],
             group: 'roles',
-            clientPermissions: ['MANAGE_ROLES'],
             userPermissions: ['MANAGE_ROLES'],
             memberName: 'massadd',
             description: 'Adds the role to everyone on the server!',
@@ -27,12 +26,12 @@ module.exports = class MassAddCommand extends Command {
 
     async run(message, args) {
 
-        if(!msg.member.hasPermission("MANAGE_ROLES")) return msg.say("You don't have permission for this command.")
+        if(!message.member.hasPermission("MANAGE_ROLES")) return message.channel.send("> <:Spartan:824723825597480978> You don't have permission for this command.")
         const { role } = args;
         const members = await message.guild.members.fetch()
         const msg = await message.channel.send(`<:spartan2:824723824502243409> Adding the **${role.name}** role to **${members.size}** members... this might take a while...`)
         await members.forEach(m => m.roles.add(role))
-        await msg.channel.send('All roles have been added.')
+        await message.reply(`<:Spartan:824723825597480978> **${role.name}** has been added to everyone.`).then(message=>message.delete({timeout:10000}))
 
         msg.delete({timeout: 60000})
     }}

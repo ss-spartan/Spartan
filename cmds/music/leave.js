@@ -1,5 +1,5 @@
 const { Command } = require('discord.js-commando');
-const chalk = require('chalk')
+const {MessageEmbed} = require("discord.js")
 module.exports = class LeaveCommand extends Command {
   constructor(client) {
     super(client, {
@@ -9,7 +9,6 @@ module.exports = class LeaveCommand extends Command {
       memberName: 'leave',
       guildOnly: true,
       description: 'Leaves voice channel if in one!',
-      clientPermissions: ['SPEAK', 'CONNECT'],
       userPermissions: ['SPEAK', 'CONNECT'],
       throttling: {
         usages: 3,
@@ -22,7 +21,7 @@ module.exports = class LeaveCommand extends Command {
 
     var voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
-      message.reply(':no_entry: Please join a voice channel and try again!');
+      message.channel.send(new MessageEmbed().setDescription(`> :no_entry: ${message.author}, Please join a voice channel and try again!`).setColor("RED"))
       return;
     } else if (
       typeof message.guild.musicData.songDispatcher == 'undefined' ||
@@ -34,16 +33,13 @@ module.exports = class LeaveCommand extends Command {
       ) {
         message.guild.me.voice.channel.leave();
       } else {
-        message.reply(':x: There is no song playing right now!');
+        message.channel.send(new MessageEmbed().setDescription(`> <:spartanWarning:839194405049991168> ${message.author}, There is no song playing right now!`).setColor("YELLOW"))
       }
       return;
     } else if (voiceChannel.id !== message.guild.me.voice.channel.id) {
-      message.reply(
-        `:no_entry: You must be in the same voice channel as the bot's in order to use that!`
-      );
-      return;
-    } else if (!message.guild.musicData.queue) {
-      message.reply(':x: There are no songs in queue');
+      message.channel.send(new MessageEmbed().setDescription(
+        `> :no_entry: ${message.author}, You must be in the same voice channel as Spartan in order to use that!`
+      ).setColor("RED"))
       return;
     } else if (message.guild.musicData.songDispatcher.paused) {
       message.guild.musicData.songDispatcher.resume();
@@ -52,18 +48,18 @@ module.exports = class LeaveCommand extends Command {
       setTimeout(() => {
         message.guild.musicData.songDispatcher.end();
       }, 100);
-      return message.say(
-        `:grey_exclamation: ${this.client.user.username} has left the channel.`
-      );
+      return message.channel.send(new MessageEmbed().setDescription(
+        `> :grey_exclamation: ${message.author},  ${this.client.user.username} has left the channel.`
+      ).setColor("GREY"))
     } else {
       message.guild.musicData.queue.length = 0;
       message.guild.musicData.skipTimer = true;
       message.guild.musicData.loopSong = false;
       message.guild.musicData.loopQueue = false;
       message.guild.musicData.songDispatcher.end();
-      return message.say(
-        `:grey_exclamation: ${this.client.user.username} has left the channel.`
-      );
+      return message.channel.send(new MessageEmbed().setDescription(
+        `:grey_exclamation: ${message.author},  ${this.client.user.username} has left the channel.`
+      ).setColor("GREY"))
     }
   }
 };

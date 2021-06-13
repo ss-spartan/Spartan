@@ -68,7 +68,7 @@ module.exports = class RoleInfoCommand extends Command {
       .setAuthorizedUsers([message.author.id])
       .setChannel(message.channel)
       .setTitle(`Server: ${message.guild.name}`)
-      .setThumbnail(`https://dummyimage.com/50/${role.hexColor.slice(1)}/50`)
+      .setThumbnail(`https://dummyimage.com/75/${role.hexColor.slice(1)}/75`)
       .setColor(role.hexColor)
       .build();
   }

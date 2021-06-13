@@ -1,7 +1,7 @@
 const {Command} = require('discord.js-commando')
 const Discord = require('discord.js');
 const urban = require('relevant-urban');
-const chalk = require('chalk')
+
 module.exports = class UrbanCommand extends Command {
     constructor(client) {
         super(client, {
@@ -67,5 +67,4 @@ module.exports = class UrbanCommand extends Command {
                 .setFooter('Urban Dictionary', 'https://a.safe.moe/1fscn.png');
             return message.channel.send(resultMessage, { embed });
         }
-    }
-}
+    }}

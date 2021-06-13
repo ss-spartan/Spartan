@@ -1,4 +1,6 @@
-const {Command} = require('discord.js-commando')
+const {
+    Command
+} = require('discord.js-commando')
 const chalk = require('chalk')
 module.exports = class MassRemCommand extends Command {
     constructor(client) {
@@ -26,13 +28,19 @@ module.exports = class MassRemCommand extends Command {
     }
 
     async run(message, args) {
-        if(!msg.member.hasPermission("MANAGE_ROLES")) return msg.say("You don't have permission for this command.")
-        const { role } = args;
+        if (!message.member.hasPermission("MANAGE_ROLES")) return message.channel.send("> <:Spartan:824723825597480978> You don't have permission for this command.")
+        const {
+            role
+        } = args;
         const members = await message.guild.members.fetch()
         await message.channel.send(`<:spartan2:824723824502243409> Removing the **${role.name}** role from **${members.size}** members...this might take a while...`)
         await members.forEach(m => m.roles.remove(role))
-        await message.channel.send(`All roles have been removed.`)
+        await message.channel.send(`> <:Spartan:824723825597480978> ${role.name} has been removed from everyone.`).then(message => message.delete({
+            timeout: 50000
+        }))
 
-        message.delete({timeout: 60000})
+        message.delete({
+            timeout: 60000
+        })
     }
 }

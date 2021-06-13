@@ -1,5 +1,5 @@
 const { Command } = require('discord.js-commando');
-const chalk = require('chalk')
+const {MessageEmbed} = require("discord.js");
 module.exports = class LoopCommand extends Command {
   constructor(client) {
     super(client, {
@@ -21,31 +21,31 @@ module.exports = class LoopCommand extends Command {
   run(message) {
 
     if (!message.guild.musicData.isPlaying) {
-      return message.say(':x: There is no song playing right now!');
+      return message.channel.send(new MessageEmbed().setDescription(`> :x: ${message.author}, There is no song playing right now!`).setColor("RED"))
     } else if (
       message.guild.musicData.isPlaying &&
       message.guild.triviaData.isTriviaRunning
     ) {
-      return message.say(':x: You cannot loop over a trivia!');
+      return message.channel.send(new MessageEmbed().setDescription(`> :x: ${message.author}, You cannot loop over a trivia!`).setColor("RED"))
     } else if (
       message.member.voice.channel.id !== message.guild.me.voice.channel.id
     ) {
-      message.reply(
-        `You must be in the same voice channel as the bot's in order to use that!`
-      );
+      message.channel.send(new MessageEmbed().setDescription(`>
+        You must be in the same voice channel as the bot's in order to use that!`
+      ).setColor("YELLOW"))
       return;
     }
 
     if (message.guild.musicData.loopSong) {
       message.guild.musicData.loopSong = false;
-      message.channel.send(
-        `**${message.guild.musicData.nowPlaying.title}** is no longer playing on repeat :repeat: `
-      );
+      message.channel.send(new MessageEmbed().setDescription(`>
+        ${message.author}, **${message.guild.musicData.nowPlaying.title}** is no longer playing on repeat. :repeat: `
+      ).setColor("BLUE"))
     } else {
       message.guild.musicData.loopSong = true;
-      message.channel.send(
-        `**${message.guild.musicData.nowPlaying.title}** is now playing on repeat :repeat: `
-      );
+      message.channel.send(new MessageEmbed().setDescription(`>
+       ${message.author}, **${message.guild.musicData.nowPlaying.title}** is now playing on repeat :repeat: `
+      ).setColor("BLUE"));
     }
   }
 };

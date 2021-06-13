@@ -81,11 +81,11 @@ const client = new Commando.CommandoClient({
 
 client.on('ready', async () => {
   const statusList = [{
-      msg: "ss-spartan.github.io",
+      msg: "discord wont verify me.",
       type: "WATCHING"
     },
     {
-      msg: "oh yeah you can see my commands with ,help",
+      msg: ",help",
       type: "LISTENING"
     },
   ];
@@ -142,24 +142,23 @@ client.on('commandRun', (cmd, promise, msg) => {
     console.log(chalk.cyan.bold(`Running`, chalk.red.bold `${cmd.name}`, chalk.yellow.bold(`in`), `${msg.guild.name}`, chalk.red.bold(`by`), `${msg.author.tag}`, chalk.red.bold(`at`), `${moment(msg.createdAt).format('MM/DD/YYYY h:mm A')}`, chalk.yellow.bold(`in`), `${msg.channel.name}`))
   }
 })
+
+client.on('commandError', (err, message, cmd, promise)=>{
+  var channel = client.channels.cache.get('853576536056659998');
+  if(message.guild !== null){
+    channel.send(`> Ran into an error while running \n**${err.name}** \n\`error: "${err.message}"\``)
+  }
+})
+
 client.on('disconnect', event => {
   client.logger.error(`[DISCONNECT] Disconnected with code ${event.code}.`);
   process.exit(0);
 });
-client.on("guildMemberAdd", async member => {
-  let asd = await db.fetch(`autorole_${member.guild.id}`)
-  if (asd === null) return;
-  let role = await member.guild.roles.cache.get(asd)
-  await member.roles.add(role)
-})
-
-
-
-
 
 const {
   Database
 } = require('xen.db');
+const { MessageEmbed } = require('discord.js');
 const db = new Database() ///can use quick.db here n just remove const db = new Database()
 
 client.on("messageDelete", (message) => {
@@ -171,26 +170,6 @@ client.on("messageDelete", (message) => {
     image: message.attachments.first() ? message.attachments.first().proxyURL : null
   })
 })
-
-client.on('messageDelete', async message => {
-  if (message.channel.type === 'dm') return;
-  let channel = db.get(`guild_${message.guild.id}`)
-  if (channel == null) return;
-  if (message.author.bot) return;
-  let kanal = db.fetch(`log_${message.guild.id}`)
-  var embed = new Discord.MessageEmbed()
-    .setDescription(`**<@${message.author.id}> Deleted Message**`)
-    .setColor("RED")
-    .setThumbnail(message.author.displayAvatarURL())
-    .addField(`Channel`, `<#${message.channel.id}>`)
-    .addField('Message', '**\`' + message.content + '\`**')
-    .setTimestamp()
-  client.channels.cache.get(channel).send(embed)
-})
-
-
-
-
 
 client.on('guildCreate', function (guild, message) {
   var channel = client.channels.cache.get('824723828713324584');
