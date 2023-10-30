@@ -13,6 +13,8 @@ Anything that Spartan saved, was saved to a mongoDB cluster, which is now delete
 If you want to see if it's still functional, or to experiment with it. Fork it! This used to run on heroku from time to time, hence the `Procfile`, but It works locally as well! Just follow the steps below. 
 
 Since Commando is deprecated, you'll have to use my version.
+  ## Requirements
+  	1. Node.js Version 16+.
    
    1. In the first step we need to clone the project
 	   >`git clone https://github.com/ss-spartan/Spartan`
