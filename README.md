@@ -15,28 +15,26 @@ If you want to see if it's still functional, or to experiment with it. Fork it! 
 Since Commando is deprecated, you'll have to use my version.
    
    1. In the first step we need to clone the project
-	   >git clone https://github.com/ss-spartan/Spartan
+	   >`git clone https://github.com/ss-spartan/Spartan`
    2. Go to the cloned project and run
-       > npm install
-		NOTE: If commando doesn't install, use this git+https://github.com/ss-spartan/SpartanCommando.git
+       > `npm install`
+		**NOTE**: If commando doesn't install, use this [Spartan Commando](https://github.com/ss-spartan/SpartanCommando.git)
    3. Write all the secrets in the config.json file
-       >{
-    "token": "YOUR DISCORD TOKEN",
-    "prefix": "THE PREFIX FOR YOUR COMMANDS",
-    "mongoPath": "  ",
-    "ownerId": " YOUR OWNER ID ",
-    "youtubeAPI": "     ",
-    "GOOGLE_CUSTOM_SEARCH": " doesn't function ",
-    "GOOGLE_CUSTOM_SEARCH_CX": " doesn't function ",
-    "reportchannel": "A CHANNEL IN DISCORD FOR REPORTS",
-    "twitchClientID": " doesn't work ",
-    "twitchClientSecret": " doesn't work"
-    }
+       >
+
+    {
+        "token": "YOUR DISCORD TOKEN",
+        "prefix": "THE PREFIX FOR YOUR COMMANDS",
+        "mongoPath": "  ",
+        "ownerId": " YOUR OWNER ID ",
+        "youtubeAPI": "     ",
+        "reportchannel": "A CHANNEL IN DISCORD FOR REPORTS",
+        }
 
   4. Run index.js with
-      > **node index.js**
+      > `node index.js`
       > OR
-      >**npm run dev** (must have nodemon installed)
+      >`npm run dev` (must have nodemon installed)
 
 
 
