@@ -1,9 +1,0 @@
-{
-  "languages": ["english", "spanish"],
-  "translations": {
-    "THE_SUM_IS": {
-      "english": "The sum is",
-      "spanish": "La suma es"
-    }
-  }
-}
