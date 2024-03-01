@@ -6,7 +6,6 @@ class PingCommand extends Command {
         super(context, {
             ...options,
             name: 'ping',
-            prefixes: '!',
             aliases: ['pong'],
             description: 'ping pong'
         });
@@ -28,15 +27,6 @@ class PingCommand extends Command {
         }
 
         return interaction.editReply('Failed to retrieve ping :(');
-    }
-
-
-    async messageRun(message) {
-        const msg = await message.channel.send('Ping?');
-
-        const content = `Pong 🏓! Bot Latency ${Math.round(this.container.client.ws.ping)}ms. API Latency ${msg.createdTimestamp - message.createdTimestamp}ms.`;
-
-        return msg.edit(content);
     }
 }
 module.exports = {
