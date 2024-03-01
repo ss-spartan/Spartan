@@ -1,0 +1,10 @@
+{
+  "main": "src/index.js",
+  "scripts": {
+    "start": "bun src/index.js"
+  },
+  "dependencies": {
+    "@sapphire/framework": "^5.0.7",
+    "discord.js": "latest"
+  }
+}
