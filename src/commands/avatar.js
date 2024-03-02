@@ -1,6 +1,5 @@
 const { Command } = require('@sapphire/framework');
 const { EmbedBuilder } = require("discord.js")
-// import { colors } from 'config.json'
 
 class AvatarCommand extends Command {
     constructor(context, options) {
