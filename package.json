@@ -1,11 +1,14 @@
 {
   "main": "src/index.js",
   "scripts": {
-    "start": "bun src/index.js"
+    "start": "bun src/index.js",
+    "watch": "nodemon -L --watch src"
   },
   "dependencies": {
     "@sapphire/framework": "^5.0.7",
     "colorette": "^2.0.20",
-    "discord.js": "latest"
+    "discord.js": "latest",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.0"
   }
 }

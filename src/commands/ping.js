@@ -7,6 +7,7 @@ class PingCommand extends Command {
             ...options,
             name: 'ping',
             aliases: ['pong'],
+            fullCategory: 'General',
             description: 'ping pong'
         });
     }
@@ -29,6 +30,4 @@ class PingCommand extends Command {
         return interaction.editReply('Failed to retrieve ping :(');
     }
 }
-module.exports = {
-    PingCommand
-};
+module.exports = {PingCommand, name:'ping', description:'ping'}

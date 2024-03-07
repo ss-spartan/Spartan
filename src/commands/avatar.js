@@ -7,6 +7,7 @@ class AvatarCommand extends Command {
             ...options,
             name: 'avatar',
             aliases: ['av'],
+            fullCategory: 'General',
             description: 'Get a users avatar!',
             options
         });
@@ -38,6 +39,4 @@ class AvatarCommand extends Command {
     }
 
 }
-module.exports = {
-    AvatarCommand
-};
+module.exports =  {AvatarCommand, name:'avatar', description: 'avatar'}

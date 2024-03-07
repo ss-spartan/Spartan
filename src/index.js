@@ -1,4 +1,4 @@
-import { SpartanClient } from './util/Spartan';
+const { SpartanClient } = require('./util/Spartan');
 
 const Spartan = new SpartanClient();
 
