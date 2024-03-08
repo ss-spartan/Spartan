@@ -28,8 +28,8 @@ class AvatarCommand extends Command {
             const user = interaction.options.getUser('user', false) || interaction.user;
 
             const embed = new EmbedBuilder()
-                .setImage(user.displayAvatarURL())
-                .setColor("#313238")
+                .setImage(user.displayAvatarURL({ size: 2048 }))
+                .setColor("#2B2C31")
 
             return interaction.reply({ embeds: [embed] });
 

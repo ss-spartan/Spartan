@@ -1,5 +1,6 @@
 const { SapphireClient } = require('@sapphire/framework');
 const { GatewayIntentBits } = require('discord.js');
+const connectDB = require("../database/db")
 
 class SpartanClient extends SapphireClient {
     constructor() {
@@ -14,6 +15,7 @@ class SpartanClient extends SapphireClient {
     }
 
     async login(token) {
+        await connectDB();
         return super.login(token);
     }
 

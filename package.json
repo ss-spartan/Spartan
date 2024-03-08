@@ -10,6 +10,8 @@
     "colorette": "^2.0.20",
     "discord.js": "latest",
     "fs": "^0.0.1-security",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
     "nodemon": "^3.1.0"
   }
 }

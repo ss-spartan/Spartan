@@ -1,5 +1,5 @@
-const { Listener, Events } = require('@sapphire/framework');
-const { blue, gray, green, magenta, magentaBright, white, yellow } = require('colorette');
+const { Listener } = require('@sapphire/framework');
+const { blue, green, magenta, magentaBright, white } = require('colorette');
 
 const dev = process.env.NODE_ENV !== 'production';
 
@@ -11,7 +11,6 @@ class MessageListener extends Listener {
     async run(message) {
         const success = green('+');
 
-        // ... (Optional) Print fancy banner on first message only (modify as needed)
         if (!this.hasPrintedBanner) {
             this.printBanner(success);
             this.hasPrintedBanner = true;
@@ -19,8 +18,7 @@ class MessageListener extends Listener {
 
         console.log(`Message received: ${message.content} (from ${message.author.tag})`);
 
-        // Your message processing logic here (e.g., handle commands, respond to messages)
-    }
+          }
 
     printBanner(success) {
         const llc = dev ? magentaBright : white;
