@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@sapphire/framework": "^5.0.7",
+    "axios": "^1.6.7",
     "colorette": "^2.0.20",
     "discord.js": "latest",
     "fs": "^0.0.1-security",
