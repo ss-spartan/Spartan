@@ -6,11 +6,9 @@ class SpartanClient extends SapphireClient {
     constructor() {
         super({
             caseInsensitiveCommands: true,
-            caseInsensitivePrefixes: true,
-            defaultPrefix: '!',
             intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
-            loadDefaultErrorListeners: false,
-            loadMessageCommandListeners: false
+            loadDefaultErrorListeners: true,
+            loadMessageCommandListeners: true
         });
     }
 

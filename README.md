@@ -3,17 +3,27 @@
 [Developer Support Server](https://discord.gg/6ssXSzgf) || [Spartan Invite](https://discord.com/oauth2/authorize?client_id=781599195986526208&permissions=1239567297142&scope=applications.commands+bot)
 
 Hello, coder! I am currently working on this project. I have made a [specific branch](https://github.com/ss-spartan/Spartan/tree/oldVersion) to view the old version of this discord bot.
+- [Spartan - Discord Bot](#spartan---discord-bot)
+  - [Description](#description)
+  - [Features](#features)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+  - [Bot Setup](#bot-setup)
+
 
 
 ## Description
 
 Spartan is a versatile Discord bot designed to elevate your music experience. It seamlessly integrates with the Last.fm API, allowing you to connect your Last.fm account and enjoy features like:
 
-`/nowplaying`: Get the currently playing song from your Last.fm profile.
-`/setfm <username>`: Link your Last.fm username to the bot for personalized music commands.
+`/setfm <username>`: Link your Last.fm username to the bot for personalized music commands.<br>
+`/nowplaying`: Get the currently playing song from your Last.fm profile.<br>
 `/recent`: View your recently played tracks on Last.fm.
 
-(Please note, as of now, Spartan only supports slash(application) commands.)
+..... (more to come soon)
+
+
+(**NOTE**: As it stands, Spartan only supports slash(application) commands.)
 
 ## Features
 
@@ -24,30 +34,30 @@ Last.fm Integration: Connect your Last.fm account and leverage its features with
 
 ## Installation
 
-### Prerequisites:
+### Prerequisites
 
 **Node.js**(v.18 or later) and **bun** installed on your system.
-You can download them from:
-**Node.js**: https://nodejs.org/en
+You can download them from:<br>
+**Node.js**: https://nodejs.org/en <br>
 **bun**: https://bun.sh/
 
-**Last.fm API and Secret Key**
-You can get them at [LastFM - Api](https://www.last.fm/api)
-Follow the instructions and you'll get them with no hassle.
+**Last.fm API and Secret Keys**
+You can get them at [**LastFM - API**](https://www.last.fm/api)
+Follow the instructions on their website.
 
 **MongoDB**
 You will need a database to save the users for the LastFm integration.
 You can create a **'development'** cluster for free.
 
-[MongoDB - Setup](https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/)
+[**MongoDB - Setup**](https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/)
 
 After you've made a user, you will need to follow this:
 
-[MongoDB - Connect](https://www.mongodb.com/docs/atlas/tutorial/connect-to-your-cluster/)
+[**MongoDB - Connec**t](https://www.mongodb.com/docs/atlas/tutorial/connect-to-your-cluster/)
 
 After those initial steps, you're ready to setup the bot! Follow the steps below.
 
-## Steps:
+## Bot Setup
 
 1. Create a Discord Application from [Discord Developer Portal](https://discord.com/developers/docs/intro)
 2. In the "**Bot**" section, create a bot and copy its token (keep it confidential).
