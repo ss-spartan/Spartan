@@ -5,8 +5,10 @@
     "watch": "nodemon -L --watch src"
   },
   "dependencies": {
+    "@gradio/client": "^1.4.0",
+    "@huggingface/inference": "^2.8.0",
     "@sapphire/framework": "^5.0.7",
-    "axios": "^1.6.7",
+    "axios": "^1.7.3",
     "colorette": "^2.0.20",
     "discord.js": "latest",
     "fs": "^0.0.1-security",
